@@ -2,42 +2,42 @@
 const products = [
   {
     title: "خاتم الأفق الهندسي",
-    desc: "فولاذ مطلي بذهب عيار ١٨",
+    desc: "استانلس 316L مقاوم للصدأ",
     price: "٤٥٠ ج.م",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCYYMy8ItoUCNrb1o5eP_OIKlOqtH9vsjwRq62_LBaeNZM0p0KiIpcmil7zE-HwVrEyHP7GwI1UsfAbK-yyva0ctcbY5Ggmee_xF8pdm_sdJu6dTrLsYzSaSCMVO4MUXiluhaLM_bzzQFzOH3wYvkOg7FcMC4EnexLT9KSfdgtOG6tHnyLhoaJ-tkZX9EcXNaTiERJD-BT0JpRNIYo6PD_aUcbsEX1W5ApnskhLrSM_xyxzY6lpXdd7z6hSFpJ4r4f91WCidPROJiI",
   },
   {
     title: "أقراط الكسوف الفضية",
-    desc: "فولاذ مصقول عالي الجودة",
+    desc: "استانلس 316L مقاوم للصدأ",
     price: "٣٨٠ ج.م",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuDp8FjA8FiozpJbRJyLThjOyNg1JRp7m2bV7_j0oQvPQOG321SZtaJ_yFVdBoD1Msy_IwGEZZnnh8GlMz_q4cFPZPq3lkjpFpPx-6uvJtO0w6kgSHXa18BjEKppP75XMNYRH0J8rNeId9W10S6Iy9SGbRRId35x-q3KKROvtfEAwDCbngBHlUW5XJrlLA3DQwgvIqLL_0Wcg-AnTifACgzQfgr39jcen7vpPHSo9fOotDG3fW-h-K-PK7ayBPRnGPZ6tbPrNdBu5ns",
   },
   {
     title: "قلادة الضوء العائمة",
-    desc: "فولاذ مطلي بذهب وردي",
+    desc: "استانلس 316L بتشطيب راق",
     price: "٥٢٠ ج.م",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCmNdhVX-14YgTdEDmKAnMHeFgFYo7XnQI3UGWGZITS3S31FqyFCORd-_xfnIXH0Hndt994PogfB1EVIsQbuWFps7FBeSqC6lmGJYl-Mtc-m4DKeKYn8ZCCnwXN9DH3ZIwD03r678itm52ur2DsGfMH6shUnWBI4EmNa-IFaFMZ-e479Ur2kyd0_u7gV8HYm8NvEwvWnJaRN2AlMTfwos0tBntPD3dGMfSADyFHV7cYWzn1IUDmBIlUR7sFC2X80W8pPNmikNsTRjs",
   },
   {
-    title: "سوار الهيكل الذهبي",
-    desc: "فولاذ مطلي بذهب عيار ١٨",
+    title: "سوار الهيكل الكلاسيكي",
+    desc: "استانلس 316L مقاوم للصدأ",
     price: "٦٠٠ ج.م",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBwLi6X9A0YGX21G9iBDefEjhW3Wp1_iX0Bqdu8Cvt7QsENKoOkA4FLfIdOMxl5dqLn8Evc0P_8Ll8aXX5p5rqjsF5rS1uPY8I01Yei5Vf3q4hB-_q9vlk7CQ7Cp3gFPiT6FnTkD7hlHIzXwfea3BcNP9tnC8_TfqigXt2HFdkSx99zJJsvmvUo6CD24ayQ08bDoYEdOhzEUxvG0FC2MYV0lRzktwasoy6sXS8xnlbmt-CPrmMfs2dVTX9Y4zUVntcTKWxbU-POZlc",
   },
   {
     title: "أقراط المنشور المصغرة",
-    desc: "فولاذ مصقول",
+    desc: "استانلس 316L مقاوم للصدأ",
     price: "٢٥٠ ج.م",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuDlPO7es6bMdOd9IcQxmBiuLZy72pxu2DT-XeqzTKdeRVchpYKBgAjgCYC7vffNiyu2MbLfSAyb4f3baVhXDv2ckWqGlKcZk2u94tT1-2YZjyB1vY2wQuu29otljLpCftBNPOM3R2Bm4NeVJmd2x0fL3DTi0LSQOr7biMNFRvlr67b10NV8kXaKvdoAWyI_OXRT41_BFnUVYiyjPfLB0N9L-gGjvxbUMRUMVZ6lrniINDS4JaUN2fVxIpAhap2-dUaBgIRtMJzBwMU",
   },
   {
     title: "قلادة الطبقات المتوازية",
-    desc: "فولاذ مطلي بذهب عيار ١٨",
+    desc: "استانلس 316L مقاوم للصدأ",
     price: "٤٨٠ ج.م",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCUXFQUDJryii9QlnnPG-6soC0hKY3KfOR84dAWdF81xAVWPbn6Caad4-Y-xAKcs2p66_1AOjr077WmRmyvQKyMqyh8JyPAau19-L5wvXOD4scLJGCsBz9UG-UMl5In3I0OPa1okulI2NC54qPy-Q79kyNGDNQsR51HTCUNj2NOWe8AXnhY-cmvH_0icZDLDbYp1B8_cYnpOIuTfPeREe-0IBSAL6DIH401osQui3fSj5hz-0WMNJNJrUHkAWNboKwlR4rOIxySlFk",
@@ -47,14 +47,14 @@ const products = [
 export default function CollectionsPage() {
   return (
     <>
-      <main className="mx-auto max-w-[1280px] px-6 pt-20">
+      <main className="mx-auto max-w-[1280px] px-6 pt-[140px]">
         <section className="border-b border-[var(--outline-variant)] py-12">
           <nav className="mb-4">
             <span className="font-arabic-display text-sm text-[var(--on-surface-variant)]">الرئيسية / المجموعات</span>
           </nav>
           <h1 className="mb-2 font-arabic-display text-3xl text-[var(--primary)] md:text-4xl">المجموعات الحصرية</h1>
           <p className="max-w-2xl text-base text-[var(--on-surface-variant)] md:text-lg">
-            استكشفي تشكيلة زهرة من الإكسسوارات الفولاذية المطلية التي تجمع بين المتانة العالية والجمال الخالد.
+            استكشفي تشكيلة زهرة من اكسسوارات الاستانلس المقاومة للصدأ التي تجمع بين المتانة العالية والجمال الخالد.
           </p>
         </section>
 
@@ -85,9 +85,9 @@ export default function CollectionsPage() {
               <h3 className="mb-4 font-arabic-display text-base text-[var(--primary)]">اللون</h3>
               <div className="space-y-3">
                 {[
-                  ["#D4AF37", "ذهب أصفر"],
+                  ["#D4AF37", "بيج"],
                   ["#E5E4E2", "فضي"],
-                  ["#B76E79", "ذهب وردي"],
+                  ["#B76E79", "وردي"],
                 ].map(([swatch, label]) => (
                   <label key={label} className="group flex cursor-pointer items-center gap-3">
                     <span className="h-5 w-5 rounded-full border border-[var(--outline-variant)]" style={{ backgroundColor: swatch }} />
@@ -166,6 +166,13 @@ export default function CollectionsPage() {
               <button className="material-symbols-outlined text-[var(--secondary)]">arrow_back</button>
             </div>
           </div>
+          <a
+            href="tel:+201515268898"
+            dir="ltr"
+            className="text-sm tracking-[0.08em] text-[var(--secondary)] transition-colors hover:text-[var(--primary)]"
+          >
+            +20 151 526 8898
+          </a>
 
           <div className="flex w-full flex-col items-center gap-6 border-t border-[var(--outline-variant)]/20 pt-8">
             <div className="flex gap-8">

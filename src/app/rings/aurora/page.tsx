@@ -31,14 +31,14 @@ const relatedProducts = [
 export default function AuroraRingPage() {
   return (
     <>
-      <main className="mx-auto max-w-[1280px] px-6 pb-20 pt-32">
+      <main className="mx-auto max-w-[1280px] px-6 pb-20 pt-[140px]">
         <nav className="mb-12">
           <ol className="flex flex-row-reverse items-center gap-2 text-sm text-[var(--on-surface-variant)]">
             <li><Link className="hover:text-[var(--primary)]" href="/">الرئيسية</Link></li>
             <li>/</li>
             <li><Link className="hover:text-[var(--primary)]" href="/collections">الخواتم</Link></li>
             <li>/</li>
-            <li className="font-semibold text-[var(--primary)]">خاتم الأورورا المطلي</li>
+            <li className="font-semibold text-[var(--primary)]">خاتم الأورورا الاستانلس</li>
           </ol>
         </nav>
 
@@ -58,7 +58,7 @@ export default function AuroraRingPage() {
           <div className="sticky top-32 flex flex-col gap-8 lg:col-span-5">
             <div className="space-y-4">
               <span className="text-sm tracking-widest text-[var(--secondary)] uppercase">مجموعة الأورورا</span>
-              <h1 className="font-arabic-display text-4xl text-[var(--on-surface)] md:text-5xl">خاتم الأورورا الفولاذي</h1>
+              <h1 className="font-arabic-display text-4xl text-[var(--on-surface)] md:text-5xl">خاتم الأورورا الاستانلس</h1>
               <div className="mt-2 flex items-center gap-4">
                 <span className="font-arabic-display text-3xl text-[var(--primary)]">٧٥٠ ج.م</span>
                 <span className="text-xl text-[var(--outline)] line-through">٩٥٠ ج.م</span>
@@ -67,8 +67,8 @@ export default function AuroraRingPage() {
 
             <div className="border-t border-[var(--outline-variant)] pt-6">
               <p className="leading-relaxed text-[var(--on-surface-variant)]">
-                يجمع خاتم الأورورا بين المتانة المعمارية والأناقة العصرية. مصنوع من الفولاذ المقاوم للصدأ عالي الجودة مع طبقة طلاء
-                ذهبية عيار ١٨ قيراط بتقنية PVD المتطورة، مما يضمن لمعانا لا ينطفئ ومقاومة فائقة للخدوش والعوامل الخارجية.
+                يجمع خاتم الأورورا بين المتانة المعمارية والأناقة العصرية. مصنوع من استانلس 316L المقاوم للصدأ، ليحافظ
+                على لمعانه اليومي ويمنحك تحملا عاليا ضد الخدوش والعوامل الخارجية.
               </p>
             </div>
 
@@ -99,7 +99,7 @@ export default function AuroraRingPage() {
                 <span className="material-symbols-outlined text-[var(--secondary)]">verified</span>
                 <div>
                   <h4 className="text-sm text-[var(--primary)]">ضمان الجودة</h4>
-                  <p className="text-xs text-[var(--on-surface-variant)]">ضمان عامين على الطلاء</p>
+                  <p className="text-xs text-[var(--on-surface-variant)]">ضمان عامين ضد عيوب الصناعة</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -117,15 +117,15 @@ export default function AuroraRingPage() {
           <div className="space-y-4">
             <h3 className="font-arabic-display text-3xl text-[var(--primary)]">المواصفات</h3>
             <ul className="space-y-2 text-[var(--on-surface-variant)]">
-              <li className="flex justify-between border-b border-[var(--outline-variant)]/30 pb-2"><span>المعدن</span><span>فولاذ ٣١٦ل</span></li>
-              <li className="flex justify-between border-b border-[var(--outline-variant)]/30 pb-2"><span>الطلاء</span><span>ذهب ١٨ قيراط PVD</span></li>
+              <li className="flex justify-between border-b border-[var(--outline-variant)]/30 pb-2"><span>المعدن</span><span>استانلس 316L</span></li>
+              <li className="flex justify-between border-b border-[var(--outline-variant)]/30 pb-2"><span>الخامة</span><span>استانلس 316L مقاوم للصدأ</span></li>
               <li className="flex justify-between border-b border-[var(--outline-variant)]/30 pb-2"><span>العرض</span><span>٤ ملم</span></li>
             </ul>
           </div>
           <div className="space-y-4">
             <h3 className="font-arabic-display text-3xl text-[var(--primary)]">العناية</h3>
             <p className="text-[var(--on-surface-variant)]">
-              تم تصميم قطعنا لترافقك طوال اليوم. الفولاذ المقاوم للصدأ لا يحتاج لعناية خاصة، ولكننا ننصح بتنظيفه بقطعة قماش ناعمة
+              تم تصميم قطعنا لترافقك طوال اليوم. الاستانلس المقاوم للصدأ لا يحتاج لعناية خاصة، ولكننا ننصح بتنظيفه بقطعة قماش ناعمة
               وجافة للحفاظ على بريقه.
             </p>
           </div>
@@ -182,6 +182,13 @@ export default function AuroraRingPage() {
               <a className="material-symbols-outlined text-[var(--secondary)] opacity-80 transition-opacity hover:opacity-100" href="#">mail</a>
             </div>
           </div>
+          <a
+            href="tel:+201515268898"
+            dir="ltr"
+            className="text-sm tracking-[0.08em] text-[var(--secondary)] transition-colors hover:text-[var(--primary)]"
+          >
+            +20 151 526 8898
+          </a>
           <p dir="ltr" className="text-sm text-[var(--on-surface-variant)] uppercase">© 2024 ZAHRA. THE ART OF SILENCE.</p>
         </div>
       </footer>

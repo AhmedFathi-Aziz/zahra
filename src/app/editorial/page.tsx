@@ -29,7 +29,7 @@ const bestSellers = [
 export default function EditorialPage() {
   return (
     <>
-      <main className="pt-[84px]">
+      <main className="pt-[140px]">
         <section className="relative flex h-[870px] w-full items-center overflow-hidden bg-[var(--surface-container-low)]">
           <div className="absolute inset-0 h-full w-full">
             <img
@@ -44,10 +44,10 @@ export default function EditorialPage() {
               <h1 className="mb-6 font-arabic-display text-5xl leading-[1.2] text-[var(--on-surface)]">
                 جمال يدوم،
                 <br />
-                فولاذ يتألق.
+                استانلس يدوم.
               </h1>
               <p className="mb-8 max-w-md text-lg text-[var(--on-surface-variant)]">
-                إكسسوارات مصممة بدقة معمارية من الفولاذ المطلي، تجمع بين الصلابة والأناقة الخالدة.
+                اكسسوارات استانلس مقاومة للصدأ، مصممة بدقة معمارية تجمع بين الصلابة والأناقة الخالدة.
               </p>
               <button className="bg-[var(--brand-navy)] px-10 py-4 text-sm text-white">تسوقي المجموعة</button>
             </div>
@@ -133,7 +133,7 @@ export default function EditorialPage() {
               <span className="text-sm tracking-widest text-[var(--brand-navy)] uppercase">قصة علامتنا</span>
               <h2 className="mt-6 mb-8 font-arabic-display text-5xl leading-tight text-[var(--on-surface)]">فلسفة القوة والنعومة.</h2>
               <p className="mb-6 text-lg text-[var(--on-surface-variant)]">
-                في &quot;زهرة&quot;، نؤمن أن الإكسسوارات ليست مجرد زينة، بل هي تعبير عن الشخصية. اخترنا الفولاذ لأنه يجسد التوازن المثالي
+                في &quot;زهرة&quot;، نؤمن أن الإكسسوارات ليست مجرد زينة، بل هي تعبير عن الشخصية. اخترنا الاستانلس المقاوم للصدأ لأنه يجسد التوازن المثالي
                 بين القوة التي لا تلين والجمال الذي لا يبهت.
               </p>
               <p className="mb-10 text-lg text-[var(--on-surface-variant)]">
@@ -153,7 +153,7 @@ export default function EditorialPage() {
               <div className="mx-auto flex max-w-[250px] flex-col items-center text-center">
                 <span className="material-symbols-outlined mb-4 text-[40px] text-[var(--brand-navy)]">verified</span>
                 <h5 className="mb-2 font-arabic-display text-xl text-[var(--on-surface)]">جودة مستدامة</h5>
-                <p className="text-[var(--on-surface-variant)]">فولاذ مقاوم للصدأ يحافظ على بريقه للأبد.</p>
+                <p className="text-[var(--on-surface-variant)]">استانلس مقاوم للصدأ يحافظ على بريقه للأبد.</p>
               </div>
               <div className="mx-auto flex max-w-[250px] flex-col items-center text-center">
                 <span className="material-symbols-outlined mb-4 text-[40px] text-[var(--brand-navy)]">local_shipping</span>
@@ -175,7 +175,7 @@ export default function EditorialPage() {
           <div className="flex flex-col items-center">
             <div className="mb-6 text-4xl tracking-widest text-[var(--brand-gold)] uppercase">ZAHRA</div>
             <p className="max-w-[450px] text-center text-[var(--on-surface-variant)]">
-              وجهتكم الأولى لإكسسوارات الفولاذ الفاخرة التي تجمع بين الحداثة والخلود.
+              وجهتكم الأولى لاكسسوارات الاستانلس المقاومة للصدأ التي تجمع بين الحداثة والخلود.
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-8 md:gap-16">
@@ -192,6 +192,13 @@ export default function EditorialPage() {
               <input className="flex-1 border-b border-[var(--brand-navy)] bg-transparent px-4 text-right" placeholder="بريدك الإلكتروني" type="email" />
             </div>
           </div>
+          <a
+            href="tel:+201515268898"
+            dir="ltr"
+            className="text-sm tracking-[0.08em] text-[var(--brand-navy)] transition-colors hover:text-[var(--brand-gold)]"
+          >
+            +20 151 526 8898
+          </a>
           <div className="flex gap-8">
             <span className="material-symbols-outlined cursor-pointer text-[var(--on-surface-variant)] opacity-80 transition-all hover:text-[var(--brand-navy)] hover:opacity-100">public</span>
             <span className="material-symbols-outlined cursor-pointer text-[var(--on-surface-variant)] opacity-80 transition-all hover:text-[var(--brand-navy)] hover:opacity-100">share</span>
