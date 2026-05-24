@@ -78,9 +78,13 @@ export function SiteNavbar() {
           <button className="material-symbols-outlined text-[var(--on-surface-variant)] transition-transform duration-200 hover:text-[var(--brand-navy)] active:scale-95">
             search
           </button>
-          <button className="material-symbols-outlined text-[var(--on-surface-variant)] transition-transform duration-200 hover:text-[var(--brand-navy)] active:scale-95">
-            person
-          </button>
+          <Link
+            href="/admin/login"
+            className="text-[var(--on-surface-variant)] transition-transform duration-200 hover:text-[var(--brand-navy)] active:scale-95"
+            aria-label="لوحة التحكم"
+          >
+            <span className="material-symbols-outlined">person</span>
+          </Link>
           <button className="material-symbols-outlined text-[var(--on-surface-variant)] transition-transform duration-200 hover:text-[var(--brand-navy)] active:scale-95">
             shopping_bag
           </button>

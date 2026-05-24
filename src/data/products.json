@@ -1,0 +1,74 @@
+[
+  {
+    "id": "aurora-ring-seed",
+    "slug": "aurora-ring",
+    "title": "خاتم الأورورا الاستانلس",
+    "collection": "مجموعة الأورورا",
+    "shortDescription": "استانلس 316L مقاوم للصدأ",
+    "description": "يجمع خاتم الأورورا بين المتانة المعمارية والأناقة العصرية. مصنوع من استانلس 316L المقاوم للصدأ، ليحافظ على لمعانه اليومي ويمنحك تحملا عاليا ضد الخدوش والعوامل الخارجية.",
+    "price": 200,
+    "compareAtPrice": 950,
+    "category": "rings",
+    "images": [
+      {
+        "id": "img-1",
+        "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuCA8o6nUIUUM2uGHzKiVddmy-0JGCvM3RiMs9v-2XvZQV5JwRarTOiiqzmhc2-3okKYuo7-vl5kBrmfqUmTE2_zstFoqr8Gewok-BHMoO3JaMy5lD4KruUucyzy7r5_bcpZpiM2V30codoN_h5JzdkycjPlahwAHsTlPPih7pfo_2pPL3gNy4L52o7cN_Ko0RN8ur6FO8XmESY1LXNEGKAXi4nU_Qx7i_ZZnjF3_CkmJ1Bz2nNUOp9XQsOAzEEnh-H_8pF2t2lEwrM",
+        "alt": "خاتم الأورورا",
+        "sortOrder": 0
+      },
+      {
+        "id": "img-2",
+        "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuDlbQxKB20FF-9OR5_ASjE8RrcSyRKcq5-372Y7qBoeS25UlhAytn7KnxAVY6FK0OS7GYoiJGCMRV-GB_ozwjAp8Zv9G_i3mBjchM090QXH4KBIasP8MH09FdNNUWuTMQn8mpHiR0QnQzAFOpxsK5wWj_EU77jZdyYJnAGvMvGqjdL4EibBn4RaExCP_GNW4IV8giENupkVvEZAq9fvJr-7nsVyqf-O5I3jlZ5M0wY5yav73tWHlJ9_xJiALrvD5Dm3k8plt1Bo9Po",
+        "alt": "تفاصيل الخاتم",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-3",
+        "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuAmIRmnJ5kpPXVXd0z_-VNZ0qgSRuG0MDbqMpnciHn5lUG3RE40gMmktZywOEkvnf0sp7kBPeIPqZz9KlL-OmncoLnmPz3ccnDSPs4l115vluav_Z2YnmlCuefyvjqUJE9s4kPaT2TVsW8xAoenuQ2E3L9GW21DmF6QdNa_jaL5c2yRNEfHGlf2_2AXSJhhnMYNpa8NogSLbbVTliGqDOFneODxxzuGRZfGJ4J_stuub7j7fi66vL_hnI-VdmnujyhSACrwZWid0uI",
+        "alt": "تغليف زهرة",
+        "sortOrder": 2
+      }
+    ],
+    "specs": [
+      {
+        "label": "المعدن",
+        "value": "استانلس 316L"
+      },
+      {
+        "label": "الخامة",
+        "value": "استانلس 316L مقاوم للصدأ"
+      },
+      {
+        "label": "العرض",
+        "value": "٤ ملم"
+      }
+    ],
+    "sizes": [
+      {
+        "value": "٥",
+        "inStock": true
+      },
+      {
+        "value": "٦",
+        "inStock": true
+      },
+      {
+        "value": "٧",
+        "inStock": true
+      },
+      {
+        "value": "٨",
+        "inStock": false
+      }
+    ],
+    "colors": [
+      "فضي"
+    ],
+    "careInstructions": "تم تصميم قطعنا لترافقك طوال اليوم. الاستانلس المقاوم للصدأ لا يحتاج لعناية خاصة، ولكننا ننصح بتنظيفه بقطعة قماش ناعمة وجافة للحفاظ على بريقه.",
+    "packagingInfo": "تصلك كل قطعة في علبة زهرة الفاخرة، مع بطاقة أصالة وحقيبة مخملية للحماية، مما يجعلها الهدية المثالية لك أو لمن تحب.",
+    "featured": true,
+    "published": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2026-05-24T21:06:36.969Z"
+  }
+]

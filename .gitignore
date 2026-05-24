@@ -16,6 +16,7 @@
 # next.js
 /.next/
 /out/
+.build-cache/
 
 # production
 /build
@@ -32,6 +33,9 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+
+# uploaded product images (commit these with your products for static deploy)
+# /public/uploads/ is gitignored by default — remove from .gitignore if you want images in git
 
 # vercel
 .vercel
