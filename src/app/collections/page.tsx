@@ -26,7 +26,9 @@ export default async function CollectionsPage() {
                 <button className="rounded-full bg-[var(--secondary)] px-4 py-2 text-sm text-[var(--on-secondary)]">الكل</button>
                 <button className="rounded-full border border-[var(--outline-variant)] bg-[var(--surface)] px-4 py-2 text-sm text-[var(--on-surface-variant)] hover:border-[var(--primary)]">أقراط</button>
                 <button className="rounded-full border border-[var(--outline-variant)] bg-[var(--surface)] px-4 py-2 text-sm text-[var(--on-surface-variant)] hover:border-[var(--primary)]">خواتم</button>
-                <button className="rounded-full border border-[var(--outline-variant)] bg-[var(--surface)] px-4 py-2 text-sm text-[var(--on-surface-variant)] hover:border-[var(--primary)]">أساور</button>
+                <button className="rounded-full border border-[var(--outline-variant)] bg-[var(--surface)] px-4 py-2 text-sm text-[var(--on-surface-variant)] hover:border-[var(--primary)]">سلاسل</button>
+                <button className="rounded-full border border-[var(--outline-variant)] bg-[var(--surface)] px-4 py-2 text-sm text-[var(--on-surface-variant)] hover:border-[var(--primary)]">انسيالات</button>
+                <button className="rounded-full border border-[var(--outline-variant)] bg-[var(--surface)] px-4 py-2 text-sm text-[var(--on-surface-variant)] hover:border-[var(--primary)]">اساور</button>
               </div>
             </div>
           </aside>

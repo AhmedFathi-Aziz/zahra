@@ -1,77 +1,5 @@
 [
   {
-    "id": "aurora-ring-seed",
-    "slug": "aurora-ring",
-    "title": "خاتم الأورورا الاستانلس",
-    "collection": "مجموعة الأورورا",
-    "shortDescription": "استانلس 316L مقاوم للصدأ",
-    "description": "يجمع خاتم الأورورا بين المتانة المعمارية والأناقة العصرية. مصنوع من استانلس 316L المقاوم للصدأ، ليحافظ على لمعانه اليومي ويمنحك تحملا عاليا ضد الخدوش والعوامل الخارجية.",
-    "price": 200,
-    "compareAtPrice": 950,
-    "category": "rings",
-    "images": [
-      {
-        "id": "img-1",
-        "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuCA8o6nUIUUM2uGHzKiVddmy-0JGCvM3RiMs9v-2XvZQV5JwRarTOiiqzmhc2-3okKYuo7-vl5kBrmfqUmTE2_zstFoqr8Gewok-BHMoO3JaMy5lD4KruUucyzy7r5_bcpZpiM2V30codoN_h5JzdkycjPlahwAHsTlPPih7pfo_2pPL3gNy4L52o7cN_Ko0RN8ur6FO8XmESY1LXNEGKAXi4nU_Qx7i_ZZnjF3_CkmJ1Bz2nNUOp9XQsOAzEEnh-H_8pF2t2lEwrM",
-        "alt": "خاتم الأورورا",
-        "sortOrder": 0
-      },
-      {
-        "id": "img-2",
-        "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuDlbQxKB20FF-9OR5_ASjE8RrcSyRKcq5-372Y7qBoeS25UlhAytn7KnxAVY6FK0OS7GYoiJGCMRV-GB_ozwjAp8Zv9G_i3mBjchM090QXH4KBIasP8MH09FdNNUWuTMQn8mpHiR0QnQzAFOpxsK5wWj_EU77jZdyYJnAGvMvGqjdL4EibBn4RaExCP_GNW4IV8giENupkVvEZAq9fvJr-7nsVyqf-O5I3jlZ5M0wY5yav73tWHlJ9_xJiALrvD5Dm3k8plt1Bo9Po",
-        "alt": "تفاصيل الخاتم",
-        "sortOrder": 1
-      },
-      {
-        "id": "img-3",
-        "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuAmIRmnJ5kpPXVXd0z_-VNZ0qgSRuG0MDbqMpnciHn5lUG3RE40gMmktZywOEkvnf0sp7kBPeIPqZz9KlL-OmncoLnmPz3ccnDSPs4l115vluav_Z2YnmlCuefyvjqUJE9s4kPaT2TVsW8xAoenuQ2E3L9GW21DmF6QdNa_jaL5c2yRNEfHGlf2_2AXSJhhnMYNpa8NogSLbbVTliGqDOFneODxxzuGRZfGJ4J_stuub7j7fi66vL_hnI-VdmnujyhSACrwZWid0uI",
-        "alt": "تغليف زهرة",
-        "sortOrder": 2
-      }
-    ],
-    "specs": [
-      {
-        "label": "المعدن",
-        "value": "استانلس 316L"
-      },
-      {
-        "label": "الخامة",
-        "value": "استانلس 316L مقاوم للصدأ"
-      },
-      {
-        "label": "العرض",
-        "value": "٤ ملم"
-      }
-    ],
-    "sizes": [
-      {
-        "value": "٥",
-        "inStock": true
-      },
-      {
-        "value": "٦",
-        "inStock": true
-      },
-      {
-        "value": "٧",
-        "inStock": true
-      },
-      {
-        "value": "٨",
-        "inStock": false
-      }
-    ],
-    "colors": [
-      "فضي"
-    ],
-    "careInstructions": "تم تصميم قطعنا لترافقك طوال اليوم. الاستانلس المقاوم للصدأ لا يحتاج لعناية خاصة، ولكننا ننصح بتنظيفه بقطعة قماش ناعمة وجافة للحفاظ على بريقه.",
-    "packagingInfo": "تصلك كل قطعة في علبة زهرة الفاخرة، مع بطاقة أصالة وحقيبة مخملية للحماية، مما يجعلها الهدية المثالية لك أو لمن تحب.",
-    "featured": true,
-    "published": true,
-    "createdAt": "2024-01-01T00:00:00.000Z",
-    "updatedAt": "2026-05-24T21:06:36.969Z"
-  },
-  {
     "slug": "خاتم-ندى-الزهرة",
     "title": "خاتم \"ندى الزهرة\"",
     "collection": "خواتم",
@@ -107,11 +35,951 @@
     ],
     "careInstructions": " تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
     "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
-    "featured": false,
+    "featured": true,
     "published": true,
     "id": "5ad3e165-1517-49fa-ae7f-26e0714bc5b8",
     "createdAt": "2026-05-26T00:46:31.615Z",
-    "updatedAt": "2026-05-26T00:56:48.840Z",
+    "updatedAt": "2026-05-26T23:40:35.750Z",
     "zahraSignature": "\"في كل قطعة من زهرة... تزهر قصة لا تشبه سواكِ.\""
+  },
+  {
+    "slug": "خاتم-الحارسة-الذهبية",
+    "title": "خاتم \"الحارسة الذهبية\"",
+    "collection": "خواتم",
+    "shortDescription": "",
+    "description": "تجسد قطعة الحارسة الذهبية القوة والأناقة في تصميم فني مستوحى من انسيابية الأفعى ورمزيتها الخالدة. يلتف الخاتم حول الإصبع بخطوط ناعمة وتفاصيل دقيقة تمنحه حضورًا جريئًا ومتوازنًا في الوقت نفسه.",
+    "price": 100,
+    "compareAtPrice": 120,
+    "category": "rings",
+    "images": [
+      {
+        "id": "1ce735f5-7617-4104-81fd-f6aa2c127d7e",
+        "url": "/uploads/products/7fbc84f8-5d41-4a1d-85f6-b74f53f9817c.jpg",
+        "alt": "خاتم \"الحارسة الذهبية\"",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.\n\n",
+    "featured": false,
+    "published": true,
+    "id": "8304d546-a558-4734-b31a-fa6d22aa88c8",
+    "createdAt": "2026-05-26T22:03:32.596Z",
+    "updatedAt": "2026-05-26T22:03:32.596Z"
+  },
+  {
+    "slug": "خاتم-إرث",
+    "title": "خاتم \"إرث\"",
+    "collection": "خواتم",
+    "shortDescription": "",
+    "description": "تستحضر قطعة إرث عبق الحضارات القديمة وجمال التفاصيل الخالدة في تصميم يجمع بين الفخامة والفن. يتوسط الخاتم نقش مستوحى من العملات التاريخية، تحيط به زخارف دقيقة تعكس براعة التصميم وروح الحرفية الراقية.",
+    "price": 120,
+    "compareAtPrice": 152,
+    "category": "rings",
+    "images": [
+      {
+        "id": "c42215f7-a63f-4fa6-b1f5-472c1d99be7b",
+        "url": "/uploads/products/fcdf20c3-5ec0-483d-bdca-fc11af2b9d1c.jpg",
+        "alt": "خاتم \"إرث\"",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [
+      "ذهبي"
+    ],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "f39061ed-f0e1-4b79-9ad6-04908df5c04b",
+    "createdAt": "2026-05-26T22:06:13.495Z",
+    "updatedAt": "2026-05-26T22:06:13.495Z"
+  },
+  {
+    "slug": "خاتم-العُملة-الملكية",
+    "title": "خاتم \"العُملة الملكية\"",
+    "collection": "خواتم",
+    "shortDescription": "",
+    "description": "تستوحي قطعة العُملة الملكية جمالها من العملات التاريخية التي حملت رموز القوة والهيبة عبر العصور. يتوسط الخاتم نقش مستوحى من الطراز الكلاسيكي، تحيط به تفاصيل هندسية دقيقة تمنحه طابعًا فخمًا يجمع بين الأصالة والأناقة المعاصرة.",
+    "price": 120,
+    "compareAtPrice": 150,
+    "category": "rings",
+    "images": [
+      {
+        "id": "4eba9374-c82c-4f5e-93ff-323fcd5575b6",
+        "url": "/uploads/products/e594bbbd-bbb1-4be2-aad0-a6221231bcc9.jpg",
+        "alt": "خاتم - 4.jpg",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [
+      "ذهبي"
+    ],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "595335c2-1c3c-452c-8d39-ed5482bc9528",
+    "createdAt": "2026-05-26T22:08:05.019Z",
+    "updatedAt": "2026-05-26T22:08:05.019Z"
+  },
+  {
+    "slug": "خاتم-قطرة",
+    "title": "خاتم \"قطرة\"",
+    "collection": "خواتم",
+    "shortDescription": "",
+    "description": "ببساطة آسرة وأناقة لا تحتاج إلى تعقيد، تأتي قطعة قطرة بتصميم انسيابي مستوحى من جمال قطرة الذهب السائلة في لحظة تجمدها. خطوط ناعمة ومنحنيات متوازنة تمنح الخاتم مظهرًا عصريًا يجمع بين الرقة والجرأة في آنٍ واحد.",
+    "price": 90,
+    "compareAtPrice": 120,
+    "category": "rings",
+    "images": [
+      {
+        "id": "49bc3357-723d-4ee4-9f62-f17cdf637026",
+        "url": "/uploads/products/12cc5033-968d-4974-9deb-258c6c82f370.jpg",
+        "alt": "خاتم \"قطرة\"",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [
+      "ذهبي"
+    ],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "cfce4540-c5ab-4c13-a838-015ef8e0bf5f",
+    "createdAt": "2026-05-26T22:09:31.188Z",
+    "updatedAt": "2026-05-26T22:09:31.188Z"
+  },
+  {
+    "slug": "مجموعة-مدارات",
+    "title": "مجموعة \"مدارات\"",
+    "collection": "",
+    "shortDescription": "3 قطع",
+    "description": "مستوحاة من حركة الكواكب والمدارات المتناغمة في الكون، حيث تلتقي الخطوط الدائرية في انسجام يرمز إلى التوازن والجمال والاستمرارية. صُممت مجموعة مدارات لتجسد الأناقة الهادئة التي لا ترتبط بزمان أو مكان، بل تعبر عن شخصية واثقة تعشق البساطة الراقية.",
+    "price": 150,
+    "compareAtPrice": 170,
+    "category": "wristbands",
+    "images": [
+      {
+        "id": "260675bf-ae18-4d3b-812c-c93903fdf625",
+        "url": "/uploads/products/d0fd78cb-970e-4d70-bb1e-02e33703f801.jpg",
+        "alt": "غوايش.jpg",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "0112d4f8-f31a-4967-97b5-856e08ddfa1c",
+    "createdAt": "2026-05-26T22:12:57.374Z",
+    "updatedAt": "2026-05-26T23:37:17.616Z"
+  },
+  {
+    "slug": "خاتم-عين-الحارسة",
+    "title": "خاتم \"عين الحارسة\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "تستوحي قطعة عين الحارسة تصميمها من الرموز الأسطورية التي ارتبطت بالحماية والبصيرة والقوة عبر العصور. يلتف الخاتم بانسيابية حول الإصبع في شكل مستوحى من الأفعى، بينما تتصدره تفاصيل فنية دقيقة تمنحه شخصية فريدة وحضورًا استثنائيًا.",
+    "price": 85,
+    "compareAtPrice": 120,
+    "category": "rings",
+    "images": [
+      {
+        "id": "21178365-9883-4a25-975c-45192f0d76fd",
+        "url": "/uploads/products/b30052a7-66f8-467e-83fc-2b6779b4a258.jpg",
+        "alt": "خاتم \"عين الحارسة\"",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [
+      "ذهبي"
+    ],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "285d5ac8-f017-4380-84f1-c48f0f987fdd",
+    "createdAt": "2026-05-26T22:14:35.748Z",
+    "updatedAt": "2026-05-26T22:14:35.748Z"
+  },
+  {
+    "slug": "خاتم-انسياب",
+    "title": "خاتم \"انسياب\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "يأتي خاتم انسياب بتصميم مستوحى من حركة الماء الهادئة وانسيابية الخطوط الطبيعية، حيث تلتقي منحنياته الناعمة في تكوين فني بسيط يخطف الأنظار بأناقته الهادئة. يعكس الشكل العضوي للخاتم إحساسًا بالحركة المستمرة والتوازن، ليمنح القطعة طابعًا عصريًا راقيًا بعيدًا عن التفاصيل التقليدية.",
+    "price": 100,
+    "compareAtPrice": 120,
+    "category": "rings",
+    "images": [
+      {
+        "id": "691d04d5-c47d-4237-82ff-1616b400cb75",
+        "url": "/uploads/products/ddca46d7-36ba-4d18-bf1d-be1068cbf4a5.jpg",
+        "alt": "خاتم \"انسياب\"",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [
+      "ذهبي"
+    ],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "59096742-98c2-4356-9e94-ed0c3b54a1b2",
+    "createdAt": "2026-05-26T22:16:02.192Z",
+    "updatedAt": "2026-05-26T22:16:02.192Z"
+  },
+  {
+    "slug": "خاتم-نفرتيتي",
+    "title": "خاتم \"نفرتيتي\"",
+    "collection": "خواتم",
+    "shortDescription": "",
+    "description": "مستوحى من ملامح الجمال الخالدة في الحضارة المصرية القديمة، يجسد خاتم نفرت روح الأناقة والقوة في تصميم فني يبرز ملامح الملكة بتفاصيل هندسية راقية. يجمع بين أصالة التاريخ وجمال التصميم المعاصر ليقدم قطعة استثنائية تحمل هوية فريدة وتعبّر عن الذوق الرفيع والشخصية الواثقة.",
+    "price": 100,
+    "compareAtPrice": 113,
+    "category": "rings",
+    "images": [
+      {
+        "id": "8951424b-50e2-4dd4-b669-a546ec2e9495",
+        "url": "/uploads/products/1643f99c-3780-4f5d-9daa-4b0c594f48c7.jpg",
+        "alt": "خاتم \"نفرتيتي\"",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [
+      "ذهبي"
+    ],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "94869be2-e787-49a1-8b71-7ecfe8ab69c4",
+    "createdAt": "2026-05-26T22:19:45.361Z",
+    "updatedAt": "2026-05-26T22:19:45.361Z"
+  },
+  {
+    "slug": "خاتم-الوسام",
+    "title": "خاتم \"الوسام\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "يستلهم خاتم الوسام تفاصيله من العملات التاريخية التي كانت رمزًا للمكانة والهيبة عبر العصور. يتوسط التصميم نقش دائري محاط بإطار زخرفي متقن يمنح القطعة حضورًا لافتًا وطابعًا يجمع بين الأصالة والفخامة.",
+    "price": 110,
+    "compareAtPrice": 130,
+    "category": "rings",
+    "images": [
+      {
+        "id": "16e46ffc-d13b-48e6-8228-d8eb8173f708",
+        "url": "/uploads/products/6f8fa3fd-c959-44bf-b1bd-6ea4e17ffadd.jpg",
+        "alt": "خاتم - 9.jpg",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [
+      "ذهبي"
+    ],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "e613bdd4-51e2-4d01-9d1d-b52bf0d2184a",
+    "createdAt": "2026-05-26T22:21:24.335Z",
+    "updatedAt": "2026-05-26T22:21:24.335Z"
+  },
+  {
+    "slug": "خاتم-تموّج",
+    "title": "خاتم \"تموّج\"",
+    "collection": "خواتم",
+    "shortDescription": "",
+    "description": "يستلهم خاتم تموّج تصميمه من حركة الأمواج الهادئة والخطوط المتدفقة في الطبيعة، حيث تتعانق الانحناءات الذهبية في تكوين فني متناغم يمنح القطعة إحساسًا بالحركة والحيوية. تتداخل الخطوط بانسيابية لتخلق تصميمًا عصريًا يجمع بين الجرأة والرقة في آنٍ واحد.",
+    "price": 80,
+    "compareAtPrice": 100,
+    "category": "rings",
+    "images": [
+      {
+        "id": "ce1f2c45-6e73-4411-aa9f-a1162dfa1082",
+        "url": "/uploads/products/d8c66d41-9292-4c6c-95ed-b2a23b83f278.jpg",
+        "alt": "خاتم \"تموّج\"",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "ef360212-65b8-4416-aa2c-90d77969d7ec",
+    "createdAt": "2026-05-26T22:22:52.865Z",
+    "updatedAt": "2026-05-26T22:22:52.865Z"
+  },
+  {
+    "slug": "خاتم-جناح-حورس",
+    "title": "خاتم \"جناح حورس\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "مستوحى من رمز الصقر المقدس في الحضارة المصرية القديمة، يجسد خاتم جناح حورس معاني القوة والحرية والحماية في تصميم فني استثنائي. تمتد الأجنحة المنقوشة بتفاصيل دقيقة لتعكس عظمة الفن المصري القديم، بينما يمنح الشكل المفتوح للخاتم لمسة عصرية تجمع بين التراث والأناقة الحديثة.",
+    "price": 95,
+    "compareAtPrice": 115,
+    "category": "rings",
+    "images": [
+      {
+        "id": "20049632-1d03-4484-9180-58f887d15f1c",
+        "url": "/uploads/products/701f8a58-08ce-469a-b7ca-154c20b2f098.jpg",
+        "alt": "خاتم - 11.jpg",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": true,
+    "published": true,
+    "id": "2609f200-abf1-4b8d-b3b8-0047e705de8c",
+    "createdAt": "2026-05-26T22:24:04.516Z",
+    "updatedAt": "2026-05-26T23:41:01.871Z"
+  },
+  {
+    "slug": "خاتم-عين-حورس",
+    "title": "خاتم \"عين حورس\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "يجسد خاتم عين حورس أحد أشهر الرموز في الحضارة المصرية القديمة، رمز الحماية والحكمة والبصيرة. جاء التصميم بخطوط انسيابية عصرية تحافظ على جمال الرمز التاريخي وتمنحه لمسة أنيقة تناسب الذوق الحديث، ليصبح قطعة فنية تجمع بين الأصالة والرقي.",
+    "price": 110,
+    "compareAtPrice": 130,
+    "category": "rings",
+    "images": [
+      {
+        "id": "d8622cb6-0745-41d8-bd57-3ff9cadb31fa",
+        "url": "/uploads/products/0c36ccac-d6a2-4a4e-af9e-97fbce8faee9.jpg",
+        "alt": "خاتم - 12.jpg",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "68b9367a-ca74-4ad9-9600-50028dbd371e",
+    "createdAt": "2026-05-26T22:25:29.330Z",
+    "updatedAt": "2026-05-26T22:25:29.330Z"
+  },
+  {
+    "slug": "مجموعة-الوصال",
+    "title": "مجموعة \"الوصال\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "تجسد مجموعة الوصال جمال الترابط والانسجام في تصميم بسيط وأنيق مستوحى من حلقات السلسلة المتصلة التي ترمز إلى القوة والاستمرارية. تضم المجموعة سلسلة ورقبة متناسقة مع إنسيال مطابق ليشكلا معًا طقمًا متكاملًا يمنح إطلالتك لمسة من الرقي العصري والأناقة الهادئة.",
+    "price": 230,
+    "compareAtPrice": 250,
+    "category": "necklaces",
+    "images": [
+      {
+        "id": "7e1a1f68-1e3b-4a65-a885-9e7140a39f81",
+        "url": "/uploads/products/1240fa7c-0632-478d-b34c-f4056f49374a.jpg",
+        "alt": "مجموعة \"الوصال\"",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "455b7599-fbb4-45b3-bfc8-7b1d851e5a3d",
+    "createdAt": "2026-05-26T22:27:31.511Z",
+    "updatedAt": "2026-05-26T23:37:43.329Z"
+  },
+  {
+    "slug": "صقر-فرعوني",
+    "title": "صقر فرعوني",
+    "collection": "",
+    "shortDescription": "",
+    "description": "قطعة مستوحاة من رموز القوة والهيبة في الحضارة المصرية القديمة، بتصميم ذهبي هادئ يعكس روح الملوك والمحاربين.\nتفاصيلها البسيطة تمنحها طابعًا عتيقًا يلفت الانتباه ويضيف حضورًا مميزًا لكل إطلالة.",
+    "price": 150,
+    "compareAtPrice": 170,
+    "category": "necklaces",
+    "images": [
+      {
+        "id": "85dc5cc3-f1a3-4da0-aa18-2017e1296abd",
+        "url": "/uploads/products/bef7ae34-2ef1-4c0d-bab0-f1aa84b81f51.jpg",
+        "alt": "سلسلة - 1.jpg",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "98e703b1-cabb-4afa-a102-24ff0e57f860",
+    "createdAt": "2026-05-26T22:34:59.581Z",
+    "updatedAt": "2026-05-26T23:37:56.662Z"
+  },
+  {
+    "slug": "أطلس",
+    "title": "أطلس",
+    "collection": "",
+    "shortDescription": "",
+    "description": "قطعة مستوحاة من الأقنعة الملكية في الحضارة المصرية القديمة، بتفاصيل ذهبية ناعمة تمنحها طابعًا عتيقًا وهيبة هادئة.\nتصميم يجمع بين الفخامة والبساطة ليحمل روح الحضارات بأسلوب عصري مميز.",
+    "price": 140,
+    "compareAtPrice": 160,
+    "category": "necklaces",
+    "images": [
+      {
+        "id": "0f0dabe1-94a0-48e2-82ad-dce69b21240e",
+        "url": "/uploads/products/a5ba7f4e-8980-4850-bc55-2fa86ef94c43.jpg",
+        "alt": "قناع الملوك",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.\n",
+    "featured": false,
+    "published": true,
+    "id": "eeedb8b9-9486-442e-8bd9-13212dc84c21",
+    "createdAt": "2026-05-26T22:37:33.708Z",
+    "updatedAt": "2026-05-26T23:38:10.056Z"
+  },
+  {
+    "slug": "أنسيال-همسة-زهرة",
+    "title": "أنسيال “همسة زهرة”",
+    "collection": "",
+    "shortDescription": "",
+    "description": "قطعة فنية صُممت لتُحاكي رقة الزهور وأناقة التفاصيل الهادئة.\nأنسيال “همسة زهرة” يجمع بين الفخامة الناعمة والتصميم الأنثوي الراقي، بتفاصيل زهرات متناسقة تنبض بالأنوثة والرقي في كل حركة. تصميمه ليس مجرد إكسسوار، بل لمسة تُعبّر عن الذوق الرفيع وتُضيف حضورًا مميزًا لكل إطلالة.",
+    "price": 120,
+    "compareAtPrice": 150,
+    "category": "bracelets",
+    "images": [
+      {
+        "id": "80273b72-5b88-4dd4-97bb-79c85d01ebdc",
+        "url": "/uploads/products/bc2b33ed-5af1-4243-a4e5-2b8a102ecdb9.jpg",
+        "alt": "انسيال - 1.jpg",
+        "sortOrder": 0
+      },
+      {
+        "id": "43ccb251-e8d6-4e2b-bf4c-fb36896ba291",
+        "url": "/uploads/products/8ad0e29b-d1aa-4a17-86af-d391da5fca14.png",
+        "alt": "أنسيال “همسة زهرة”",
+        "sortOrder": 1
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "b70bcc78-da1b-43f4-8ad6-32907942e4d4",
+    "createdAt": "2026-05-26T22:43:13.601Z",
+    "updatedAt": "2026-05-26T22:43:13.601Z"
+  },
+  {
+    "slug": "سلسة-عين-حورس",
+    "title": "سلسة \"عين حورس\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "استوحي أناقتك من عظمة الحضارة المصرية مع سلسلة عين حورس، قطعة فنية تجمع بين الرمز التاريخي والتصميم العصري الفاخر. صُممت بعناية لتجسد عين حورس؛ رمز الحماية والقوة والبصيرة، بلمسة ذهبية أنيقة تمنحك حضورًا مختلفًا وجاذبية استثنائية.",
+    "price": 150,
+    "compareAtPrice": 170,
+    "category": "necklaces",
+    "images": [
+      {
+        "id": "6ed513ad-e1d6-45a0-bfb4-cde9c28fa920",
+        "url": "/uploads/products/937d77d8-7f3e-4bff-970b-d60e86994686.png",
+        "alt": "سلسلة عين حورس.png",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": true,
+    "published": true,
+    "id": "5762d4e6-57d9-4bf0-86fd-b27e9e19a5ea",
+    "createdAt": "2026-05-26T22:48:54.242Z",
+    "updatedAt": "2026-05-26T23:39:38.730Z"
+  },
+  {
+    "slug": "أنسيال-زهرة",
+    "title": "أنسيال “زهرة”",
+    "collection": "",
+    "shortDescription": "",
+    "description": "أناقة هادئة بلمسة فاخرة… أنسيال زهرة صُمم ليمنحكِ حضورًا مختلفًا بتفاصيل الزهور السوداء الراقية وإطار معدني لامع يعكس الذوق العصري. مصنوع من ستانلس ستيل عالي الجودة ليجمع بين الجمال والمتانة، مقاوم للبهتان ومناسب للاستخدام اليومي دون أن يفقد بريقه.",
+    "price": 100,
+    "compareAtPrice": 120,
+    "category": "bracelets",
+    "images": [
+      {
+        "id": "665600f7-5ad9-4fc3-ba5e-4debc5f9ba3a",
+        "url": "/uploads/products/8cf99690-83da-4064-97d4-c954abcfdde6.png",
+        "alt": "أنسيال “زهرة”",
+        "sortOrder": 0
+      },
+      {
+        "id": "415f5c2a-1ca9-469e-bf04-3be58b34a2da",
+        "url": "/uploads/products/6140661d-f919-4c53-b731-ab7178ec1f65.jpg",
+        "alt": "أنسيال “زهرة”",
+        "sortOrder": 1
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": true,
+    "published": true,
+    "id": "8e20b3bf-9f15-44b4-b246-6114898ca89a",
+    "createdAt": "2026-05-26T22:55:04.006Z",
+    "updatedAt": "2026-05-26T23:40:42.431Z"
+  },
+  {
+    "slug": "أنسيال-وردة",
+    "title": "أنسيال وردة",
+    "collection": "",
+    "shortDescription": "",
+    "description": "أناقة مستوحاة من جمال الزهور بتفاصيل راقية ولمسة عصرية… أنسيال وردة صُمم بعناية ليمنحكِ إطلالة ناعمة وفاخرة في نفس الوقت. بتفاصيل الزهور الخضراء الهادئة وإطار ذهبي أنيق، يجمع بين الرقة والفخامة في قطعة واحدة.",
+    "price": 120,
+    "compareAtPrice": 140,
+    "category": "bracelets",
+    "images": [
+      {
+        "id": "6d1c6a78-83d1-4dbd-8a65-1030961276cd",
+        "url": "/uploads/products/9c9c0898-c5ed-4eef-a9ef-baec9acb2d39.png",
+        "alt": "انسيال وردة.png",
+        "sortOrder": 0
+      },
+      {
+        "id": "e7aee83a-295a-4c1e-9fa9-09a16c359e6d",
+        "url": "/uploads/products/8fc5cd2e-f9ff-477b-a193-8bff3be6b6b2.jpg",
+        "alt": "انسيال - 3.jpg",
+        "sortOrder": 1
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": true,
+    "published": true,
+    "id": "d4b87d56-90c6-46f4-b918-78f7935a5e58",
+    "createdAt": "2026-05-26T22:58:51.940Z",
+    "updatedAt": "2026-05-26T23:40:46.989Z"
+  },
+  {
+    "slug": "سلسلة-أثر",
+    "title": "سلسلة أثر",
+    "collection": "",
+    "shortDescription": "",
+    "description": "قطعة تحمل بصمة من التاريخ ولمسة من الفخامة… سلسلة أثر مستوحاة من جمال النقوش الهيروغليفية التي تحكي أسرار الحضارة المصرية القديمة. صُممت بعناية لتمنحكِ إطلالة مختلفة تجمع بين الأصالة والأناقة العصرية، لتكون أكثر من مجرد إكسسوار… بل قطعة تحمل معنى وحضورًا مميزًا.",
+    "price": 150,
+    "compareAtPrice": 170,
+    "category": "necklaces",
+    "images": [
+      {
+        "id": "f37b46d7-bc72-48a1-84d6-aabf7cb6c55f",
+        "url": "/uploads/products/5038bdc3-e834-4f6b-83ea-310dd3cd7b3b.png",
+        "alt": "اثر الملوك.png",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "bec58e74-26ca-4b93-9724-196f7982d5ed",
+    "createdAt": "2026-05-26T23:03:53.796Z",
+    "updatedAt": "2026-05-26T23:03:53.796Z"
+  },
+  {
+    "slug": "انسيال-تراث",
+    "title": "انسيال \"تراث\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "لمسة من الماضي بروح عصرية… أنسيال تراث صُمم ليحكي قصة الأصالة والجمال في قطعة واحدة. تفاصيله المستوحاة من رموز التراث العربي والمصري تمنحه طابعًا فريدًا يجمع بين الفخامة والمعنى، ليكون أكثر من مجرد إكسسوار… بل قطعة تحمل روح الذكريات والأناقة.",
+    "price": 120,
+    "compareAtPrice": 140,
+    "category": "bracelets",
+    "images": [
+      {
+        "id": "a3975920-6d36-4e39-b417-9edfd42e4303",
+        "url": "/uploads/products/96af4b03-4f71-4cd8-909b-484c665cf117.png",
+        "alt": "انسيال \"تراث\"",
+        "sortOrder": 0
+      },
+      {
+        "id": "3fee5ff3-6127-4489-8e27-8eac0b10c4f4",
+        "url": "/uploads/products/53296860-2dee-45c3-b025-450645202d4c.png",
+        "alt": "انسيال \"تراث\"",
+        "sortOrder": 1
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "00969a19-cd33-4042-aa63-c1f547bf6f8a",
+    "createdAt": "2026-05-26T23:08:26.803Z",
+    "updatedAt": "2026-05-26T23:08:26.803Z"
+  },
+  {
+    "slug": "انسيال-وردة-الذهبي",
+    "title": "انسيال وردة الذهبي",
+    "collection": "",
+    "shortDescription": "",
+    "description": "رقة التفاصيل ولمسة من الفخامة في قطعة واحدة… أنسيال وردة الذهبي صُمم بعناية ليمنحكِ إطلالة أنيقة وناعمة مستوحاة من جمال الزهور. بتفاصيله الذهبية الراقية وتصميم الورود المتناسق، يضيف لمسة أنثوية راقية تُبرز جمال إطلالتك في كل مناسبة.",
+    "price": 130,
+    "compareAtPrice": 150,
+    "category": "bracelets",
+    "images": [
+      {
+        "id": "28f6b6e7-3159-45b5-a95a-5f006d72b4d0",
+        "url": "/uploads/products/29eeb770-f12d-448e-8e62-9da0233f4b1a.png",
+        "alt": "انسيال وردة زهرة.png",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "c8cbc51f-4c41-4c3f-b911-bb0fb5f774ce",
+    "createdAt": "2026-05-26T23:11:10.914Z",
+    "updatedAt": "2026-05-26T23:11:10.914Z"
+  },
+  {
+    "slug": "سلسلة-نفرتيتي",
+    "title": "سلسلة \"نفرتيتي\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "مستوحاة من سحر الملكات وعظمة الحضارة المصرية القديمة… سلسلة نفرت صُممت بتفاصيل أنيقة تجسد ملامح الجمال الملكي بلمسة عصرية راقية. تصميمها الفريد يمنحكِ حضورًا مختلفًا يجمع بين الأصالة والفخامة، لتكون أكثر من مجرد إكسسوار… بل قطعة تحكي قصة من التاريخ.",
+    "price": 150,
+    "compareAtPrice": 180,
+    "category": "necklaces",
+    "images": [
+      {
+        "id": "ab3abbc6-7e03-4f5b-a9ca-babaffe24168",
+        "url": "/uploads/products/13eb8296-1ab6-4650-9679-23216255e78c.png",
+        "alt": "سلسلة \"نفرتيتي\"",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "bf04f88e-8e85-4c8b-8dfc-da37b706df74",
+    "createdAt": "2026-05-26T23:13:25.069Z",
+    "updatedAt": "2026-05-26T23:13:25.069Z"
+  },
+  {
+    "slug": "سلسلة-مفتاح-الحياة",
+    "title": "سلسلة \"مفتاح الحياة\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "مستوحاة من رمز العنخ الفرعوني الشهير، تأتي سلسلة مفتاح الحياة بتصميم يحمل روح الحضارة المصرية القديمة ولمسة عصرية أنيقة. يرمز مفتاح الحياة إلى القوة، الحماية، والتوازن، ليمنح هذه القطعة معنى خاصًا يتجاوز الجمال ويعكس شخصية مميزة.",
+    "price": 190,
+    "compareAtPrice": 210,
+    "category": "necklaces",
+    "images": [
+      {
+        "id": "c507cad7-ac34-42cd-bb6c-b4d0d18479f3",
+        "url": "/uploads/products/692c61d4-13c1-4369-90a7-2d4c7c954378.jpg",
+        "alt": "سلسلة \"مفتاح الحياة\"",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "1de8abab-4b35-4572-beae-f160616a496e",
+    "createdAt": "2026-05-26T23:15:27.692Z",
+    "updatedAt": "2026-05-26T23:15:27.692Z"
+  },
+  {
+    "slug": "سلسلة-عين-حورس-الملكية",
+    "title": "سلسلة \"عين حورس الملكية\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "مستوحاة من أحد أقوى رموز الحضارة المصرية القديمة، تأتي سلسلة عين حورس الملكية بتصميم يجسد القوة والحماية والبصيرة. تتوسطها عين حورس الشهيرة بلمسة ذهبية أنيقة وتفاصيل راقية تمنح القطعة طابعًا ملكيًا يجمع بين الأصالة والفخامة العصرية.",
+    "price": 190,
+    "compareAtPrice": 210,
+    "category": "necklaces",
+    "images": [
+      {
+        "id": "ac8dff8f-b166-4c6d-9e8c-5f52dd829a56",
+        "url": "/uploads/products/5d600de5-ba6f-4556-942b-94d2d4eb0bf7.jpg",
+        "alt": "سلسلة - 8.jpg",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "2ba0b54e-e2ed-43a6-9f23-d09b0e620c57",
+    "createdAt": "2026-05-26T23:18:07.879Z",
+    "updatedAt": "2026-05-26T23:18:07.879Z"
+  },
+  {
+    "slug": "أنسيال-لمسة-حب",
+    "title": "أنسيال “لمسة حب”",
+    "collection": "",
+    "shortDescription": "",
+    "description": "تصميم ناعم يحكي عن البساطة والأناقة في أجمل صورها… أنسيال لمسة حب يجمع بين الرقة والعصرية بتفاصيل أنيقة تشمل كلمة Love ولمسة القلب الذهبية التي تضيف إحساسًا دافئًا ومميزًا لكل إطلالة.",
+    "price": 100,
+    "compareAtPrice": 120,
+    "category": "bracelets",
+    "images": [
+      {
+        "id": "8f601f8c-27ef-43c2-ad5e-aa56f0e6a2d2",
+        "url": "/uploads/products/3e73436d-426b-44e8-a113-0988621ee4b3.jpg",
+        "alt": "انسيال - 4.jpg",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": true,
+    "published": true,
+    "id": "43a1148a-bed3-4f0e-bb28-98665f07afbc",
+    "createdAt": "2026-05-26T23:20:04.317Z",
+    "updatedAt": "2026-05-26T23:40:57.107Z"
+  },
+  {
+    "slug": "خاتم-تموّج",
+    "title": "خاتم تموّج",
+    "collection": "",
+    "shortDescription": "",
+    "description": "تصميم جريء مستوحى من انسيابية الأمواج ولمسات الفن العصري… خاتم تموّج يجمع بين الجرأة والأناقة في قطعة فريدة بتفاصيل ناعمة وانحناءات مميزة تمنحكِ إطلالة مختلفة تلفت الأنظار.",
+    "price": 80,
+    "compareAtPrice": 110,
+    "category": "rings",
+    "images": [
+      {
+        "id": "a901ac55-6563-41b7-8e49-d4670f8c5771",
+        "url": "/uploads/products/d7be4c03-21ca-423b-b8ba-36ee4ba11d1a.jpg",
+        "alt": "خاتم - 13.jpg",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "9232ee2f-dab1-4664-a150-6a1556047896",
+    "createdAt": "2026-05-26T23:21:26.846Z",
+    "updatedAt": "2026-05-26T23:21:26.846Z"
+  },
+  {
+    "slug": "خاتم-لؤلؤة-البحر",
+    "title": "خاتم \"لؤلؤة البحر\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "مستوحى من سحر البحر وتفاصيله الهادئة… خاتم لؤلؤة البحر يجمع بين جمال نجمة البحر والصدفة والمحارة في تصميم فني مميز يمنحكِ لمسة أنيقة ومختلفة. تفاصيله الدقيقة وانسيابيته الراقية تجعله قطعة تلفت الأنظار وتضيف لإطلالتك طابعًا ناعمًا وفاخرًا.",
+    "price": 100,
+    "compareAtPrice": 120,
+    "category": "rings",
+    "images": [
+      {
+        "id": "71ca2d9a-c23a-4086-b29c-7a336dcb9011",
+        "url": "/uploads/products/a3f8426f-6546-4ef8-8ffb-7569e1f2fd14.jpg",
+        "alt": "خاتم - 14.jpg",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "acaae097-ddaa-4543-bb54-248d35af5edd",
+    "createdAt": "2026-05-26T23:22:54.438Z",
+    "updatedAt": "2026-05-26T23:22:54.438Z"
+  },
+  {
+    "slug": "خاتم-نجمة-البحر",
+    "title": "خاتم \"نجمة البحر\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "مستوحى من هدوء البحر وسحر تفاصيله… خاتم نجمة البحر يأتي بتصميم فني عصري وانسيابي يمنحكِ لمسة من التميز والرقي. تفاصيله الدائرية اللامعة مع الشكل المستوحى من نجمة البحر تضيف إحساسًا بالفخامة والنعومة في نفس الوقت، ليكون قطعة تخطف الأنظار بكل بساطة.",
+    "price": 80,
+    "compareAtPrice": 100,
+    "category": "rings",
+    "images": [
+      {
+        "id": "f429a00f-e2ce-469c-84df-a6ed0002c55e",
+        "url": "/uploads/products/d1414cb1-a2b9-4033-86e0-4df756795905.jpg",
+        "alt": "خاتم - 15.jpg",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "2e9c67d3-ba4c-422a-ae62-d19872055581",
+    "createdAt": "2026-05-26T23:24:11.776Z",
+    "updatedAt": "2026-05-26T23:24:11.776Z"
+  },
+  {
+    "slug": "أسورة-تموّج",
+    "title": "أسورة \"تموّج\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "تصميم مستوحى من انسيابية الأمواج ولمسات الفن العصري… أسورة تموّج تجمع بين الجرأة والرقي في قطعة واحدة. بتفاصيلها المتموجة الراقية ولمعتها الذهبية الفاخرة، تمنحكِ حضورًا أنيقًا وإطلالة مختلفة تخطف الأنظار بكل بساطة.",
+    "price": 120,
+    "compareAtPrice": 150,
+    "category": "wristbands",
+    "images": [
+      {
+        "id": "beb4047a-c503-4ef3-bfe8-02ad71d99da3",
+        "url": "/uploads/products/219f12fa-ee62-4d84-90f6-3872e2ab0144.png",
+        "alt": "اسورة - 2.png",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "b8791408-8695-4de0-a0a8-911f94e39124",
+    "createdAt": "2026-05-26T23:27:19.525Z",
+    "updatedAt": "2026-05-26T23:27:19.525Z"
+  },
+  {
+    "slug": "خاتم-الأجنحة",
+    "title": "خاتم \"الأجنحة\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "تصميم فني جريء مستوحى من تفاصيل الأجنحة الحرة، يجمع بين الانسيابية والأناقة في قطعة تلفت الأنظار من أول نظرة. خاتم الأجنحة مصنوع من الاستانلس الذهبي بتفاصيل مفرغة ولمسات عصرية تمنحك إطلالة مميزة تجمع بين القوة والرقة. قطعة فريدة تناسب كل من تبحث عن أسلوب مختلف يحمل لمسة فخامة خاصة من زهرة.",
+    "price": 80,
+    "compareAtPrice": 100,
+    "category": "rings",
+    "images": [
+      {
+        "id": "550c64c4-969e-43b0-acd6-31733430ffdc",
+        "url": "/uploads/products/9f196817-33a5-4e8c-96a1-bce7a81eedc0.png",
+        "alt": "خاتم \"الأجنحة\"",
+        "sortOrder": 0
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": false,
+    "published": true,
+    "id": "dc43f746-2d1a-4197-9724-f651dfda9345",
+    "createdAt": "2026-05-26T23:31:54.770Z",
+    "updatedAt": "2026-05-26T23:31:54.770Z"
+  },
+  {
+    "slug": "خاتم-نفرت",
+    "title": "خاتم \"نفرت\"",
+    "collection": "",
+    "shortDescription": "",
+    "description": "مستوحى من سحر الملكة المصرية الخالدة، يأتي خاتم نفرت بتصميم يجسد القوة والأنوثة في قطعة واحدة نابضة بالفخامة. تفاصيل الوجه الملكي المنحوتة بعناية تمنح الخاتم طابعًا فريدًا مستوحى من الحضارة المصرية القديمة، بينما تضيف اللمسة الذهبية اللامعة إحساسًا بالرقي والتميز. قطعة استثنائية من زهرة صُممت لمن تعشق الأناقة المختلفة وتحمل روح التاريخ بأسلوب عصري.",
+    "price": 100,
+    "compareAtPrice": 140,
+    "category": "rings",
+    "images": [
+      {
+        "id": "59ad313b-2b6e-4466-818d-245e165d41d5",
+        "url": "/uploads/products/f39c6c62-4c5f-4ed4-9b79-e383372c5286.png",
+        "alt": "خاتم نفرت.png",
+        "sortOrder": 0
+      },
+      {
+        "id": "bf2da9da-a479-4d0f-a8a5-39ab4b0d3b3d",
+        "url": "/uploads/products/f9847164-813b-46fe-b4dd-9766b1a085bc.png",
+        "alt": "خاتم \"نفرت\"",
+        "sortOrder": 1
+      }
+    ],
+    "specs": [],
+    "sizes": [],
+    "colors": [],
+    "careInstructions": "تجنب ملامسة العطور ومستحضرات التجميل والمواد الكيميائية مباشرة.",
+    "packagingInfo": "في زهرة نهتم بكل تفصيلة، لذلك صُممت تجربة التغليف لتكون جزءًا من جمال القطعة نفسها.",
+    "featured": true,
+    "published": true,
+    "id": "321518eb-c094-42a7-9f18-e123c9038358",
+    "createdAt": "2026-05-26T23:36:54.141Z",
+    "updatedAt": "2026-05-26T23:40:51.489Z"
   }
 ]

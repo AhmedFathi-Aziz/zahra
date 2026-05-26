@@ -1,4 +1,4 @@
-export type ProductCategory = "rings" | "earrings" | "necklaces" | "bracelets";
+export type ProductCategory = "rings" | "earrings" | "necklaces" | "bracelets" | "wristbands";
 
 export type ProductImage = {
   id: string;
@@ -45,13 +45,15 @@ export type ProductInput = Omit<Product, "id" | "createdAt" | "updatedAt">;
 export const PRODUCT_CATEGORIES: { value: ProductCategory; label: string }[] = [
   { value: "rings", label: "خواتم" },
   { value: "earrings", label: "أقراط" },
-  { value: "necklaces", label: "قلادات" },
-  { value: "bracelets", label: "أساور" },
+  { value: "necklaces", label: "سلاسل" },
+  { value: "bracelets", label: "انسيالات" },
+  { value: "wristbands", label: "اساور" },
 ];
 
 export const CATEGORY_LABELS: Record<ProductCategory, string> = {
   rings: "خواتم",
   earrings: "أقراط",
-  necklaces: "قلادات",
-  bracelets: "أساور",
+  necklaces: "سلاسل",
+  bracelets: "انسيالات",
+  wristbands: "اساور",
 };
