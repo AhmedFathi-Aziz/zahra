@@ -57,10 +57,10 @@ export function ProductGallery({ images, title }: ProductGalleryProps) {
 
   return (
     <>
-      <div className="space-y-4 lg:col-span-7">
+      <div className="min-w-0 w-full max-w-full space-y-4 lg:col-span-7">
         <div
           ref={mainRef}
-          className="group relative aspect-[4/5] cursor-zoom-in overflow-hidden bg-[var(--surface-container)]"
+          className="group relative aspect-[4/5] w-full max-w-full cursor-zoom-in overflow-hidden bg-[var(--surface-container)]"
           onMouseMove={handleMouseMove}
           onMouseLeave={() => setZoomOrigin({ x: 50, y: 50 })}
           onClick={openLightbox}
@@ -69,7 +69,7 @@ export function ProductGallery({ images, title }: ProductGalleryProps) {
           <img
             src={active?.url}
             alt={active?.alt ?? title}
-            className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.8]"
+            className="h-full w-full max-w-full object-contain object-center transition-transform duration-500 ease-out md:object-cover lg:group-hover:scale-[1.8]"
             style={{ transformOrigin: `${zoomOrigin.x}% ${zoomOrigin.y}%` }}
           />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 transition-opacity group-hover:opacity-100" />

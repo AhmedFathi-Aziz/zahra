@@ -33,6 +33,7 @@ export type Product = {
   colors: string[];
   careInstructions?: string;
   packagingInfo?: string;
+  zahraSignature?: string;
   featured: boolean;
   published: boolean;
   createdAt: string;

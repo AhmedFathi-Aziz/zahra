@@ -5,7 +5,7 @@ import type { Product, ProductInput } from "@/lib/types/product";
 
 const DATA_PATH = path.join(process.cwd(), "src", "data", "products.json");
 
-async function readProducts(): Promise<Product[]> {
+export async function readProducts(): Promise<Product[]> {
   const raw = await fs.readFile(DATA_PATH, "utf-8");
   return JSON.parse(raw) as Product[];
 }

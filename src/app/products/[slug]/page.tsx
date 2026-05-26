@@ -1,17 +1,15 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ProductDetailView } from "@/components/product-detail-view";
-import { getAllProducts, getProductBySlug, getRelatedProducts } from "@/lib/products";
+import { getProductBySlug, getRelatedProducts } from "@/lib/products";
+
+export const dynamic = "force-dynamic";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
-export function generateStaticParams() {
-  return getAllProducts().map((product) => ({ slug: product.slug }));
-}
-
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const product = getProductBySlug(slug);
+  const product = await getProductBySlug(slug);
   if (!product) return { title: "المنتج غير موجود" };
 
   const cover = [...product.images].sort((a, b) => a.sortOrder - b.sortOrder)[0];
@@ -29,10 +27,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function ProductPage({ params }: PageProps) {
   const { slug } = await params;
-  const product = getProductBySlug(slug);
+  const product = await getProductBySlug(slug);
   if (!product) notFound();
 
-  const related = getRelatedProducts(product);
+  const related = await getRelatedProducts(product);
 
   return (
     <>

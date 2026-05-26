@@ -5,6 +5,7 @@ import { useState } from "react";
 import { formatPrice } from "@/lib/format";
 import type { Product, ProductSize } from "@/lib/types/product";
 import { ProductGallery } from "@/components/product-gallery";
+import { ZahraSignatureSection } from "@/components/zahra-signature-section";
 
 type ProductDetailProps = {
   product: Product;
@@ -22,29 +23,29 @@ export function ProductDetailView({ product, related }: ProductDetailProps) {
 
   return (
   <>
-      <main className="mx-auto max-w-[1280px] px-6 pb-20 pt-[140px]">
-        <nav className="mb-12">
-          <ol className="flex flex-row-reverse items-center gap-2 text-sm text-[var(--on-surface-variant)]">
-            <li>
+      <main className="mx-auto w-full max-w-[1280px] overflow-x-hidden px-4 pb-20 pt-[120px] sm:px-6 sm:pt-[140px]">
+        <nav className="mb-8 sm:mb-12">
+          <ol className="flex min-w-0 flex-row-reverse flex-wrap items-center gap-x-2 gap-y-1 text-sm text-[var(--on-surface-variant)]">
+            <li className="shrink-0">
               <Link className="hover:text-[var(--primary)]" href="/">
                 الرئيسية
               </Link>
             </li>
-            <li>/</li>
-            <li>
+            <li className="shrink-0">/</li>
+            <li className="shrink-0">
               <Link className="hover:text-[var(--primary)]" href="/collections">
                 المجموعات
               </Link>
             </li>
-            <li>/</li>
-            <li className="font-semibold text-[var(--primary)]">{product.title}</li>
+            <li className="shrink-0">/</li>
+            <li className="min-w-0 break-words font-semibold text-[var(--primary)]">{product.title}</li>
           </ol>
         </nav>
 
-        <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-12">
+        <div className="grid min-w-0 grid-cols-1 items-start gap-8 sm:gap-12 lg:grid-cols-12">
           <ProductGallery images={product.images} title={product.title} />
 
-          <div className="sticky top-32 flex flex-col gap-8 lg:col-span-5">
+          <div className="flex min-w-0 flex-col gap-8 lg:sticky lg:top-32 lg:col-span-5">
             <div className="space-y-4">
               {product.collection ? (
                 <span className="text-sm tracking-widest text-[var(--secondary)] uppercase">{product.collection}</span>
@@ -60,7 +61,7 @@ export function ProductDetailView({ product, related }: ProductDetailProps) {
 
             {product.description ? (
               <div className="border-t border-[var(--outline-variant)] pt-6">
-                <p className="leading-relaxed text-[var(--on-surface-variant)]">{product.description}</p>
+                <p className="whitespace-pre-line leading-relaxed text-[var(--on-surface-variant)]">{product.description}</p>
               </div>
             ) : null}
 
@@ -121,6 +122,8 @@ export function ProductDetailView({ product, related }: ProductDetailProps) {
           </div>
         </div>
 
+        <ZahraSignatureSection signature={product.zahraSignature} />
+
         {(product.specs.length > 0 || product.careInstructions || product.packagingInfo) && (
           <div className="mt-20 grid grid-cols-1 gap-12 border-t border-[var(--outline-variant)] pt-12 md:grid-cols-3">
             {product.specs.length > 0 ? (
@@ -139,13 +142,13 @@ export function ProductDetailView({ product, related }: ProductDetailProps) {
             {product.careInstructions ? (
               <div className="space-y-4">
                 <h3 className="font-arabic-display text-3xl text-[var(--primary)]">العناية</h3>
-                <p className="text-[var(--on-surface-variant)]">{product.careInstructions}</p>
+                <p className="whitespace-pre-line text-[var(--on-surface-variant)]">{product.careInstructions}</p>
               </div>
             ) : null}
             {product.packagingInfo ? (
               <div className="space-y-4">
                 <h3 className="font-arabic-display text-3xl text-[var(--primary)]">التغليف</h3>
-                <p className="text-[var(--on-surface-variant)]">{product.packagingInfo}</p>
+                <p className="whitespace-pre-line text-[var(--on-surface-variant)]">{product.packagingInfo}</p>
               </div>
             ) : null}
           </div>

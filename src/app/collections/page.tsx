@@ -2,8 +2,10 @@ import { ProductCard } from "@/components/product-card";
 import { getAllProducts } from "@/lib/products";
 import { toArabicNumerals } from "@/lib/format";
 
+export const dynamic = "force-dynamic";
+
 export default async function CollectionsPage() {
-  const products = getAllProducts();
+  const products = await getAllProducts();
 
   return (
     <>

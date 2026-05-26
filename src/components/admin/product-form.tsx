@@ -34,6 +34,7 @@ function emptyForm(): ProductInput {
     colors: [],
     careInstructions: "",
     packagingInfo: "",
+    zahraSignature: "",
     featured: false,
     published: true,
   };
@@ -161,6 +162,7 @@ export function ProductForm({ initial, mode }: ProductFormProps) {
       sizes: form.sizes.filter((s) => s.value),
       colors: form.colors.filter(Boolean),
       compareAtPrice: form.compareAtPrice && form.compareAtPrice > 0 ? form.compareAtPrice : undefined,
+      zahraSignature: form.zahraSignature?.trim() || undefined,
     };
 
     try {
@@ -276,6 +278,18 @@ export function ProductForm({ initial, mode }: ProductFormProps) {
                 placeholder="اكتب قصة التحفة... ما الذي يجعلها مميزة؟"
                 className={`${inputClass} resize-y`}
               />
+            </Field>
+            <Field label="بصمة زهرة">
+              <textarea
+                value={form.zahraSignature ?? ""}
+                onChange={(e) => updateField("zahraSignature", e.target.value)}
+                rows={3}
+                placeholder='مثال: في كل قطعة من زهرة... تزهر قصة لا تشبه سواكِ.'
+                className={`${inputClass} resize-y`}
+              />
+              <p className="mt-1.5 text-xs text-[var(--on-surface-variant)]">
+                تظهر في صفحة المنتج ضمن قسم بصمة زهرة. اتركها فارغة لاستخدام النص الافتراضي للعلامة.
+              </p>
             </Field>
           </FormSection>
 
