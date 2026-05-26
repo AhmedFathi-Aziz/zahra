@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ProductDetailView } from "@/components/product-detail-view";
-import { getProductBySlug, getRelatedProducts } from "@/lib/products";
-
-export const dynamic = "force-dynamic";
+import { getAllProducts, getProductBySlug, getRelatedProducts } from "@/lib/products";
 
 type PageProps = { params: Promise<{ slug: string }> };
+
+export async function generateStaticParams() {
+  const products = await getAllProducts();
+  return products.map((product) => ({ slug: product.slug }));
+}
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;

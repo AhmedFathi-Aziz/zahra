@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
 const cacheDir = path.join(root, ".build-cache");
+const nextDevDir = path.join(root, ".next", "dev");
 
 const pathsToHide = [
   { from: path.join(root, "src", "app", "api"), name: "api" },
@@ -44,6 +45,10 @@ function restoreDevOnlyPaths() {
 
 console.log("📦 بناء الموقع الثابت (Static Export)...\n");
 console.log("   → إخفاء لوحة التحكم و API (للتطوير المحلي فقط)\n");
+
+// Next.js may include stale dev route types during build.
+// Clear .next/dev before static export to avoid type collisions.
+rmSync(nextDevDir, { recursive: true, force: true });
 
 hideDevOnlyPaths();
 
