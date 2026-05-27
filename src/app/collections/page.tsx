@@ -1,6 +1,6 @@
-import { ProductCard } from "@/components/product-card";
+import { CollectionsCatalog } from "@/components/collections-catalog";
+import { SocialLinks } from "@/components/social-links";
 import { getAllProducts } from "@/lib/products";
-import { toArabicNumerals } from "@/lib/format";
 
 export default async function CollectionsPage() {
   const products = await getAllProducts();
@@ -18,42 +18,7 @@ export default async function CollectionsPage() {
           </p>
         </section>
 
-        <div className="flex flex-col gap-6 py-10 md:flex-row-reverse">
-          <aside className="w-full flex-shrink-0 space-y-10 md:w-64">
-            <div>
-              <h3 className="mb-4 font-arabic-display text-base text-[var(--primary)]">الفئة</h3>
-              <div className="flex flex-wrap gap-2">
-                <button className="rounded-full bg-[var(--secondary)] px-4 py-2 text-sm text-[var(--on-secondary)]">الكل</button>
-                <button className="rounded-full border border-[var(--outline-variant)] bg-[var(--surface)] px-4 py-2 text-sm text-[var(--on-surface-variant)] hover:border-[var(--primary)]">أقراط</button>
-                <button className="rounded-full border border-[var(--outline-variant)] bg-[var(--surface)] px-4 py-2 text-sm text-[var(--on-surface-variant)] hover:border-[var(--primary)]">خواتم</button>
-                <button className="rounded-full border border-[var(--outline-variant)] bg-[var(--surface)] px-4 py-2 text-sm text-[var(--on-surface-variant)] hover:border-[var(--primary)]">سلاسل</button>
-                <button className="rounded-full border border-[var(--outline-variant)] bg-[var(--surface)] px-4 py-2 text-sm text-[var(--on-surface-variant)] hover:border-[var(--primary)]">انسيالات</button>
-                <button className="rounded-full border border-[var(--outline-variant)] bg-[var(--surface)] px-4 py-2 text-sm text-[var(--on-surface-variant)] hover:border-[var(--primary)]">اساور</button>
-              </div>
-            </div>
-          </aside>
-
-          <div className="flex-grow">
-            <div className="mb-8 flex items-center justify-between">
-              <span className="text-sm text-[var(--on-surface-variant)]">
-                عرض {toArabicNumerals(products.length)} {products.length === 1 ? "منتج" : "منتج"}
-              </span>
-            </div>
-
-            {products.length === 0 ? (
-              <div className="py-20 text-center">
-                <span className="material-symbols-outlined mb-4 text-5xl text-[var(--brand-gold)]">diamond</span>
-                <p className="font-arabic-display text-xl text-[var(--primary)]">قريباً — تحف جديدة</p>
-              </div>
-            ) : (
-              <div className="grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
-                {products.map((product) => (
-                  <ProductCard key={product.id} product={product} />
-                ))}
-              </div>
-            )}
-          </div>
-        </div>
+        <CollectionsCatalog products={products} />
       </main>
 
       <footer className="mt-20 w-full border-t border-[var(--outline-variant)]/20 bg-[var(--surface-container-lowest)]">
@@ -66,8 +31,9 @@ export default async function CollectionsPage() {
           >
             +20 151 526 8898
           </a>
+          <SocialLinks />
           <div dir="ltr" className="text-sm tracking-wider text-[var(--on-surface-variant)] uppercase">
-            © 2024 ZAHRA. THE ART OF SILENCE.
+            © 2026 ZAHRA. THE ART OF SILENCE.
           </div>
         </div>
       </footer>

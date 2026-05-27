@@ -91,7 +91,7 @@ export default function RootLayout({
           fetchPriority="high"
         />
       </head>
-      <body className="min-h-full flex flex-col">
+      <body className="flex min-h-full flex-col overflow-x-hidden">
         <RootChrome>{children}</RootChrome>
       </body>
     </html>

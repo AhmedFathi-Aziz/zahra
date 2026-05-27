@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+import { SocialLinks } from "@/components/social-links";
+
 export default function Home() {
   return (
     <>
@@ -122,11 +124,8 @@ export default function Home() {
             >
               +20 151 526 8898
             </a>
-            <p dir="ltr" className="font-sans text-xs tracking-[0.1em] text-[var(--on-surface-variant)] uppercase">© 2024 ZAHRA. THE ART OF SILENCE.</p>
-            <div className="flex gap-4">
-              <a className="material-symbols-outlined text-[var(--on-surface-variant)] transition-colors hover:text-[var(--brand-navy)]" href="#">share</a>
-              <a className="material-symbols-outlined text-[var(--on-surface-variant)] transition-colors hover:text-[var(--brand-navy)]" href="#">public</a>
-            </div>
+            <p dir="ltr" className="font-sans text-xs tracking-[0.1em] text-[var(--on-surface-variant)] uppercase">© 2026 ZAHRA. THE ART OF SILENCE.</p>
+            <SocialLinks />
           </div>
         </div>
       </footer>

@@ -1,32 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
-const bestSellers = [
-  {
-    title: 'سوار "أورا" الهندسي',
-    price: "٤٥٠ ج.م",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDSptFuxmo1CypEYqwSb8y64JqcmG3wvhDadMwmmMIRG86qmnonCUbx5b0LAr2CNwhNdbgfNGkzY4A9lzMWvBBiWmkK3eKj_8c64kw-iyz4-iwPEQl3B9JZLjtI2hZYP_Wy157UexPdUj-KGGjWNj6EpNNBkimeVBoLR_0jN_B7iKFUhuRKGqZEg7JUpxXVKz1QnP7xyP_1etxnRuCznvyT4fM6SPHerwEceNj5_ZKVbNuh01siCfcLz_7kHCxk2PnG-5AVhhlwRfM",
-  },
-  {
-    title: "أقراط دائرية مصقولة",
-    price: "٢٨٠ ج.م",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuClPlRH5FVCvWdlzJlloJ7zaqKAnCpc0Czgizm8YRoLXJ02VGl7MQYFnPlDrGNX5HQsWoIt48ddcJC6zyZo2ZRVU4Kskm8euYkl_vd_PDC9LycMFY-P5ULfE9fie6fWNrOZ3-s1ipUhex3_XhwZZsi2hFG0uW2Yad689H6yAztoPjY6gllBfwChzNrCV0Se_baD35q7xpDGvgI1FERWiMrL4YnHxWQxC3FKlizE3NP2wfD_eLDMADtE-bE_Q1uk429dW7x4R7YPP9w",
-  },
-  {
-    title: 'طقم خواتم "ثريا"',
-    price: "٣٥٠ ج.م",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBowO1YFyATyyXqFqT1e8zAfnkurx7Q08vAosGNYQEXnic6ITD7Tf__rRzJz0XOlS_jstPiEKPCnjOK1KxNsQ6XnunPmFnCDYMWTf3Wb8hRA8lfrIss3HszVHRWUf7GhicU11U5Uob5TrgIC2XwKCzZyjyGmM4nbbEs-FBDg-IyO06E0nq8Sq9bgHkaUR18cO6XtS-h_NgSSwpxYLxIRxa0Y8ZmdiIAHO0hAHugD7iMWq3GzzsAzxMYvNZ5ndUlTl3zLFH5e18FX88",
-  },
-  {
-    title: 'قلادة "لينير" الفضية',
-    price: "٣٩٠ ج.م",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAkzTMp7cXoiXc8DqxnZf9qZbRelimW8a3xbvTQ-d1_8Jg6SybvWjlLuYUiprzZBxH2mhn10oseyK7YZs7L-qYsbgbBkZ4FqMvTg0afjiBEzAzqdxaSx9cJk_a3-tkyPmU-Hmy4UD1fJtw5IYSPfB7HC_0JGPnq0yHzQ7nhYl-HOjeLfNmOwwfIzZR7cvpcOOBrIhnfh4xeJFQY-veeBb2BVehJO4WnIiBMPWWIQJwCwcCXskfbr2Gu0-1jTOS4ykZrZJRLxzAiWEE",
-  },
-];
+import { ProductCard } from "@/components/product-card";
+import { SocialLinks } from "@/components/social-links";
+import { getEditorialCategoryImage, getFeaturedProducts } from "@/lib/products";
 
-export default function EditorialPage() {
+export default async function EditorialPage() {
+  const [ringsVisual, necklacesVisual, featuredProducts] = await Promise.all([
+    getEditorialCategoryImage("rings", ["خاتم-ندى-الزهرة", "خاتم-جناح-حورس", "خاتم-عين-حورس"]),
+    getEditorialCategoryImage("necklaces", ["سلسة-عين-حورس", "سلسلة-أثر", "سلسلة-مفتاح-الحياة"]),
+    getFeaturedProducts(),
+  ]);
+
   return (
     <>
       <main className="pt-[140px]">
@@ -65,20 +48,40 @@ export default function EditorialPage() {
               </div>
             </div>
             <div className="flex flex-1 flex-col gap-6">
-              <div className="group relative flex-1 overflow-hidden border border-[var(--outline-variant)]/30">
-                <img className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" alt="الخواتم" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUb5pn1c377YbgHGywzpQbRjJuxjP9-S3VkzxdvRzK5bGYEU2We5PwwSO2vLb8cWSfQqgBCLyNmSdNpLBljfB6nxQcjFJPAhj5Dn-5KKC5z73eZA1qPLXQnU-6Uv8HHu52UKq-OnYCnNDdCVJ4dscUjDZaN8GKOLBKDjSc1l5O0I9N5WJabtTpJebJwW8V-aXg-tiszax3yWU8kGnETx8PRmh3PjT9tRZ0njEtkN8XR6IsA3CsPHEC4qS1D1pS4n_QU6OQyUBswx8" />
-                <div className="absolute inset-0 bg-[var(--brand-navy)]/30" />
+              <a
+                href="/collections"
+                className="group relative flex-1 overflow-hidden border border-[var(--outline-variant)]/30"
+              >
+                {ringsVisual.image ? (
+                  <img
+                    className="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                    alt={ringsVisual.alt || "الخواتم"}
+                    src={ringsVisual.image}
+                  />
+                ) : null}
+                <div className="absolute inset-0 bg-gradient-to-t from-[var(--brand-navy)]/70 via-[var(--brand-navy)]/20 to-transparent" />
                 <div className="absolute right-6 bottom-6">
                   <h3 className="font-arabic-display text-3xl text-white">الخواتم</h3>
+                  <span className="mt-1 block text-sm text-white/80 underline underline-offset-4">استكشفي الآن</span>
                 </div>
-              </div>
-              <div className="group relative flex-1 overflow-hidden border border-[var(--outline-variant)]/30">
-                <img className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" alt="القلاائد" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSUT5el2Sbj1aoxYJ-h5yq3x-Lc4T459DvHV348FdtPtn9wVGgKp2qw2A2l9Il6FJyvGcPXLJ8mfl9VYDVpBPA0gj5hxGlBmnqdUny1WZsyg4WNJtb4MG674K-GCY-J4psqM3oWCLhlIp2tejlLlZ8i73wXO16QatyeJMt-V5kSOg9Xo5CoBlMesSnj5J5Z5yUKlG4idgxDoU7LpzLmgGRl_-drJw50il2ZJlRfMQywieL5hfAPnHRDkX16ZLY0VPh2HLiriS4q5Q" />
-                <div className="absolute inset-0 bg-[var(--brand-navy)]/30" />
+              </a>
+              <a
+                href="/collections"
+                className="group relative flex-1 overflow-hidden border border-[var(--outline-variant)]/30"
+              >
+                {necklacesVisual.image ? (
+                  <img
+                    className="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                    alt={necklacesVisual.alt || "سلاسل"}
+                    src={necklacesVisual.image}
+                  />
+                ) : null}
+                <div className="absolute inset-0 bg-gradient-to-t from-[var(--brand-navy)]/70 via-[var(--brand-navy)]/20 to-transparent" />
                 <div className="absolute right-6 bottom-6">
-                  <h3 className="font-arabic-display text-3xl text-white">القلاائد</h3>
+                  <h3 className="font-arabic-display text-3xl text-white">سلاسل</h3>
+                  <span className="mt-1 block text-sm text-white/80 underline underline-offset-4">استكشفي الآن</span>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </section>
@@ -87,45 +90,50 @@ export default function EditorialPage() {
           <div className="mx-auto max-w-[1280px] px-10">
             <div className="mb-12 flex items-end justify-between">
               <div className="text-right">
-                <span className="text-sm tracking-widest text-[var(--brand-navy)] uppercase">الأكثر مبيعا</span>
-                <h2 className="mt-2 font-arabic-display text-4xl text-[var(--on-surface)]">قطع مختارة لكِ</h2>
+                <span className="text-sm tracking-widest text-[var(--brand-navy)] uppercase">قطع مميزة</span>
+                <h2 className="mt-2 font-arabic-display text-4xl text-[var(--on-surface)]">تحف مختارة من زهرة</h2>
               </div>
               <a href="/collections" className="flex items-center gap-2 text-sm text-[var(--on-surface-variant)] transition-colors hover:text-[var(--brand-navy)]">
                 مشاهدة الكل
                 <span className="material-symbols-outlined text-[16px]">arrow_back</span>
               </a>
             </div>
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {bestSellers.map((item) => (
-                <div key={item.title} className="group">
-                  <div className="relative mb-6 aspect-[3/4] overflow-hidden border border-[var(--outline-variant)]/20 bg-white transition-all duration-300 group-hover:border-[var(--brand-navy)]">
-                    <img className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" alt={item.title} src={item.image} />
-                    <button className="absolute bottom-0 w-full translate-y-full bg-[var(--brand-navy)] py-3 text-sm text-white transition-transform duration-300 group-hover:translate-y-0">
-                      إضافة للسلة
-                    </button>
-                  </div>
-                  <div className="text-center">
-                    <h4 className="font-arabic-display text-xl text-[var(--on-surface)]">{item.title}</h4>
-                    <p className="mt-1 text-[var(--on-surface-variant)]">{item.price}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
+            {featuredProducts.length === 0 ? (
+              <div className="py-16 text-center">
+                <span className="material-symbols-outlined mb-4 text-5xl text-[var(--brand-gold)]">diamond</span>
+                <p className="font-arabic-display text-xl text-[var(--primary)]">لا توجد قطع مميزة حالياً</p>
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                {featuredProducts.map((product) => (
+                  <ProductCard key={product.id} product={product} />
+                ))}
+              </div>
+            )}
           </div>
         </section>
 
-        <section className="mx-auto max-w-[1280px] bg-[var(--surface)] px-10 py-[120px]">
-          <div className="flex flex-col items-center gap-[60px] md:flex-row-reverse">
-            <div className="relative w-full flex-1">
-              <div className="aspect-[4/5] overflow-hidden border border-[var(--outline-variant)]/30">
-                <img className="h-full w-full object-cover" alt="قصة العلامة" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNDIibd8oPnMm9Se_HG1twakj56pFeKvJ11uOL9i3OIOW3xT70en0U1K34huu-2YNei3aGvMmc8ROSyxy8kpO8L7mk3PVNm2yFcpnETD_SSWOk-F8nNjHMB2Ay0xLYXWUX6I221_ldvJ4I6rBEkj5AP4spH_A5FyY-B273goKcxYfg6FmN5kYic7lt5Z4GB7FWXvDZeOpH5vOH5L-azMH_gNqCY5wtK3vdrHy5saJMft-ZBktPEcwY8S5fa2MdY7KIvICidk2OggA" />
+        <section className="mx-auto max-w-[1280px] bg-[var(--surface)] px-4 py-16 sm:px-6 md:px-10 md:py-[120px]">
+          <div className="flex flex-col items-center gap-10 md:flex-row-reverse md:items-start md:gap-[60px]">
+            <div className="relative w-full min-w-0 flex-1 pb-10 sm:pb-12">
+              <div className="relative aspect-[4/5] overflow-hidden border border-[var(--outline-variant)]/30 bg-[var(--surface-container-low)]">
+                <img
+                  className="h-full w-full object-cover object-center"
+                  alt="نسمة الخلود — تحفة فنية فريدة من زهرة"
+                  src="/editorial/nesmat-al-kholoud-photo.png"
+                />
               </div>
-              <div className="absolute -bottom-10 -left-10 hidden h-48 w-48 border border-[var(--outline-variant)]/30 bg-[var(--surface)] p-4 lg:block">
-                <div className="flex h-full w-full items-center justify-center border border-dashed border-[var(--outline-variant)]">
-                  <span className="text-center text-sm text-[var(--brand-gold)]">
+              <div className="absolute -bottom-4 left-0 z-10 h-32 w-32 border border-[var(--outline-variant)]/30 bg-[var(--surface)]/95 p-3 shadow-sm backdrop-blur-sm sm:-bottom-6 sm:h-40 sm:w-40 sm:p-4 md:h-44 md:w-44">
+                <div className="flex h-full w-full flex-col items-center justify-center border border-dashed border-[var(--brand-gold)]/40">
+                  <span className="text-center font-arabic-display text-lg text-[var(--brand-gold)] sm:text-xl">
                     بصمة
-                    <br /> &quot;زهرة&quot;
                   </span>
+                  <span className="mt-1 text-center font-arabic-display text-base text-[var(--brand-navy)] sm:text-lg">
+                    &quot;زهرة&quot;
+                  </span>
+                  <p className="mt-2 max-w-[120px] text-center text-[10px] leading-relaxed text-[var(--on-surface-variant)] sm:text-xs">
+                    كل قطعة تحمل روح الفن وجمال التفاصيل.
+                  </p>
                 </div>
               </div>
             </div>
@@ -158,7 +166,7 @@ export default function EditorialPage() {
               <div className="mx-auto flex max-w-[250px] flex-col items-center text-center">
                 <span className="material-symbols-outlined mb-4 text-[40px] text-[var(--brand-navy)]">local_shipping</span>
                 <h5 className="mb-2 font-arabic-display text-xl text-[var(--on-surface)]">توصيل سريع</h5>
-                <p className="text-[var(--on-surface-variant)]">شحن آمن ومجاني لجميع دول الخليج.</p>
+                <p className="text-[var(--on-surface-variant)]">شحن آمن وسريع لجميع المحافظات.</p>
               </div>
               <div className="mx-auto flex max-w-[250px] flex-col items-center text-center">
                 <span className="material-symbols-outlined mb-4 text-[40px] text-[var(--brand-navy)]">package_2</span>
@@ -200,12 +208,10 @@ export default function EditorialPage() {
             +20 151 526 8898
           </a>
           <div className="flex gap-8">
-            <span className="material-symbols-outlined cursor-pointer text-[var(--on-surface-variant)] opacity-80 transition-all hover:text-[var(--brand-navy)] hover:opacity-100">public</span>
-            <span className="material-symbols-outlined cursor-pointer text-[var(--on-surface-variant)] opacity-80 transition-all hover:text-[var(--brand-navy)] hover:opacity-100">share</span>
-            <span className="material-symbols-outlined cursor-pointer text-[var(--on-surface-variant)] opacity-80 transition-all hover:text-[var(--brand-navy)] hover:opacity-100">mail</span>
+            <SocialLinks />
           </div>
           <div className="w-full border-t border-[var(--outline-variant)]/10 pt-8 text-center">
-            <p dir="ltr" className="text-sm tracking-widest text-[var(--on-surface-variant)] uppercase">© ٢٠٢٤ زهرة. THE ART OF SILENCE.</p>
+            <p dir="ltr" className="text-sm tracking-widest text-[var(--on-surface-variant)] uppercase">© ٢٠٢٦ زهرة. THE ART OF SILENCE.</p>
           </div>
         </div>
       </footer>

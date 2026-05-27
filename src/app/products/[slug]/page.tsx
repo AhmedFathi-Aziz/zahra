@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ProductDetailView } from "@/components/product-detail-view";
+import { SocialLinks } from "@/components/social-links";
 import { getAllProducts, getProductBySlug, getRelatedProducts } from "@/lib/products";
 
 type PageProps = { params: Promise<{ slug: string }> };
+
+export const dynamicParams = true;
 
 export async function generateStaticParams() {
   const products = await getAllProducts();
@@ -48,8 +51,9 @@ export default async function ProductPage({ params }: PageProps) {
           >
             +20 151 526 8898
           </a>
+          <SocialLinks />
           <p dir="ltr" className="text-sm text-[var(--on-surface-variant)] uppercase">
-            © 2024 ZAHRA. THE ART OF SILENCE.
+            © 2026 ZAHRA. THE ART OF SILENCE.
           </p>
         </div>
       </footer>

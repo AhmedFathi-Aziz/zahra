@@ -56,7 +56,7 @@ export function SiteNavbar() {
           <Link className="font-arabic-display text-base text-[var(--on-surface-variant)] transition-colors duration-300 hover:text-[var(--brand-navy)]" href="/editorial">
             عالم زهره
           </Link>
-          <Link className="font-arabic-display text-base text-[var(--on-surface-variant)] transition-colors duration-300 hover:text-[var(--brand-navy)]" href="/rings/aurora">
+          <Link className="font-arabic-display text-base text-[var(--on-surface-variant)] transition-colors duration-300 hover:text-[var(--brand-navy)]" href="/gifts">
             هدايا
           </Link>
         </div>
@@ -146,7 +146,7 @@ export function SiteNavbar() {
               </Link>
               <Link
                 className="rounded-lg border border-transparent px-3 py-2 font-arabic-display text-base text-[var(--on-surface)] transition-all duration-300 hover:border-[var(--brand-gold)]/35 hover:bg-[color:var(--surface-container-low)] hover:text-[var(--brand-navy)]"
-                href="/rings/aurora"
+                href="/gifts"
                 onClick={closeMobileMenu}
               >
                 هدايا
