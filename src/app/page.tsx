@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import { SocialLinks } from "@/components/social-links";
 
 export default function Home() {
@@ -13,6 +14,20 @@ export default function Home() {
             <p className="max-w-2xl text-lg leading-[1.6] text-[var(--on-surface-variant)]">
               نؤمن في زهرة أن اكسسوارات الاستانلس ليست مجرد زينة، بل هي امتداد للقوة والجمال الذي يدوم للأبد.
             </p>
+            <div className="mt-8 flex flex-wrap items-center justify-end gap-3">
+              <Link
+                href="/collections"
+                className="inline-block bg-[var(--brand-navy)] px-8 py-3 text-sm tracking-widest text-white transition-all duration-300 hover:bg-[var(--brand-gold)]"
+              >
+                تسوقي الآن
+              </Link>
+              <Link
+                href="/gifts"
+                className="inline-block border border-[var(--outline-variant)] px-8 py-3 text-sm text-[var(--on-surface-variant)] transition-colors hover:border-[var(--brand-gold)] hover:text-[var(--brand-navy)]"
+              >
+                شوفي الهدايا
+              </Link>
+            </div>
           </div>
           <div className="overflow-hidden border border-[var(--outline-variant)]/30 bg-[var(--surface-container-low)]">
             <img className="h-full w-full object-contain" alt="مجموعة اكسسوارات استانلس" src="/hero-main.png" />
@@ -97,9 +112,12 @@ export default function Home() {
               اكتشفي مجموعتنا المختارة
             </h2>
             <p className="mb-10 text-[var(--on-surface-variant)]">انضمي إلى عالم زهرة واختاري قطعاً تعكس قوتك وأناقتك الفريدة.</p>
-            <button className="bg-[var(--brand-navy)] px-12 py-4 font-sans text-xs tracking-[0.12em] text-white uppercase transition-all duration-300 hover:bg-[var(--brand-gold)] active:scale-95">
+            <Link
+              href="/collections"
+              className="bg-[var(--brand-navy)] px-12 py-4 font-sans text-xs tracking-[0.12em] text-white uppercase transition-all duration-300 hover:bg-[var(--brand-gold)] active:scale-95"
+            >
               تسوقي الآن
-            </button>
+            </Link>
           </div>
         </section>
       </main>
