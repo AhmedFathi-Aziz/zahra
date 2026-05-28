@@ -1,7 +1,9 @@
 import type { MetadataRoute } from "next";
 import { getAllProducts } from "@/lib/products";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://zahra-website-37g.pages.dev";
+export const dynamic = "force-static";
+
+const siteUrl = "https://zahra-website-37g.pages.dev";
 
 const staticRoutes = ["/", "/collections", "/editorial", "/gifts"] as const;
 
