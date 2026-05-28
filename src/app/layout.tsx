@@ -20,7 +20,7 @@ const kufiArabic = Noto_Kufi_Arabic({
   weight: ["400", "500", "600", "700"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://zahra-website-37g.pages.dev";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://zahrajw.com";
 
 const siteTitle = "ZAHRA JEWELRY · مجوهرات زهره";
 

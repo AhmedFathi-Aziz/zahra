@@ -3,7 +3,7 @@ import { getAllProducts } from "@/lib/products";
 
 export const dynamic = "force-static";
 
-const siteUrl = "https://zahra-website-37g.pages.dev";
+const siteUrl = "https://zahrajw.com";
 
 const staticRoutes = ["/", "/collections", "/editorial", "/gifts"] as const;
 
